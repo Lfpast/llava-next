@@ -62,4 +62,5 @@ class DinoV2GTEncoder(nn.Module):
 
         if restore_bt:
             return grid.view(B, T, self.grid, self.grid, self.hidden_size)
-        return grid.view(B, T, self.grid, self.grid, self.hidden_size)
+        else:
+            return grid.view(B, T, self.grid, self.grid, self.hidden_size)
