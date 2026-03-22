@@ -1,0 +1,28 @@
+{
+  "video_qa": {
+    "task": "video_qa",
+    "accuracy": 0.5064102564102564,
+    "correct": 39.5,
+    "total": 78
+  },
+  "video_mc": {
+    "task": "video_mc",
+    "accuracy": 0.7625,
+    "correct": 61,
+    "total": 80
+  },
+  "video_cap": {
+    "task": "video_caption",
+    "avg_bleu4": 0.08295820538210893,
+    "avg_rouge_l": 0.26448906207757267,
+    "avg_cider": 2.724747856924468,
+    "avg_word_overlap": 0.32304427306079503,
+    "num_samples": 40
+  },
+  "image_qa": {
+    "task": "image_qa",
+    "accuracy": 0.4025157232704403,
+    "correct": 128.0,
+    "total": 318
+  }
+}

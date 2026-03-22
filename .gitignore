@@ -15,6 +15,7 @@ dist
 .idea
 *.swp
 .vscode
+*.safetensors
 
 # Other
 .DS_Store

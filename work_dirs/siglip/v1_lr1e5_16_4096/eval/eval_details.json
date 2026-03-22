@@ -1,0 +1,4534 @@
+{
+  "video_qa": {
+    "task": "video_qa",
+    "accuracy": 0.4935897435897436,
+    "correct": 38.5,
+    "total": 78,
+    "details": [
+      {
+        "id": "106-6Mi3xrBF1sY-split_0",
+        "qa": [
+          {
+            "q": "<image>\nWhat is the person doing in the video?",
+            "gt": "The person is pouring a white liquid, likely milk, from a transparent measuring cup into a black pot.",
+            "pred": "The person is preparing a dish by adding various ingredients to a bowl and then mixing them together.",
+            "score": 0.5
+          },
+          {
+            "q": "What features does the measuring cup have?",
+            "gt": "The measuring cup is transparent with red measurement markings indicating volumes up to 2 cups.",
+            "pred": "The measuring cup has a clear glass body with a white interior and a red spout.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "325-XpYgHLTeUd4-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhat is the last ingredient added to the pot as per the video?",
+            "gt": "Sugar, specifically 1/2 teaspoon, is the last ingredient added.",
+            "pred": "The last ingredient added to the pot is a white substance, likely flour.",
+            "score": 0.0
+          },
+          {
+            "q": "What utensil is initially used to stir the mixture in the pot?",
+            "gt": "An orange spatula is initially used to stir the mixture.",
+            "pred": "A wooden spoon is initially used to stir the mixture in the pot.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "310-cFZPX7by9N8-split_2",
+        "qa": [
+          {
+            "q": "<image>\nWhy does Jeff Roberto slice the fish into thin, even pieces?",
+            "gt": "To demonstrate his expertise and dedication to the art of sushi making.",
+            "pred": "Jeff Roberto slices the fish into thin, even pieces to showcase his skill and precision in preparing the dish.",
+            "score": 0.0
+          },
+          {
+            "q": "What is the main focus of the video?",
+            "gt": "The main focus of the video is the meticulous process of slicing raw fish.",
+            "pred": "The main focus of the video is the preparation of a dish, specifically the cooking process of a piece of meat.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "403-Ns8su84olsQ-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhat background elements are visible in the kitchen?",
+            "gt": "The background includes a white wall, a white brick wall, a clock, and kitchen decor.",
+            "pred": "The background elements visible in the kitchen include a stove with a pot on it, a sink area, and various kitchen utensi",
+            "score": 0.5
+          },
+          {
+            "q": "What is the final action shown in the video?",
+            "gt": "The final action shown in the video is the person in the white chef's coat beginning to add bean sprouts to the frying p",
+            "pred": "The final action shown in the video is the person stirring the mixture with a wooden spoon.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "413-YuY7aqO0HxU-split_4",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the video take place?",
+            "gt": "The video takes place in a well-equipped kitchen.",
+            "pred": "The video takes place in a kitchen.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the person in the video wearing?",
+            "gt": "The person is wearing a black and blue striped shirt.",
+            "pred": "The person is wearing a black shirt.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "413-ny7G1uw36J0-split_4",
+        "qa": [
+          {
+            "q": "<image>\nIs the person preparing a healthy meal?",
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          },
+          {
+            "q": "How does the person ensure the vegetables are well-coated with the sauce?",
+            "gt": "The person pours the sauce evenly over the vegetables and uses their other hand to adjust the vegetables on the plate.",
+            "pred": "The person uses a wooden spatula to stir the mixture, ensuring the vegetables are well-coated with the sauce.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "219-U8Mb5cr7JDQ-split_3",
+        "qa": [
+          {
+            "q": "<image>\nWhat is the main activity being shown in the video?",
+            "gt": "The main activity shown in the video is the process of mixing shredded cabbage with salt.",
+            "pred": "The main activity shown in the video is the preparation of a dish, specifically involving slicing raw chicken breasts an",
+            "score": 0.5
+          },
+          {
+            "q": "What are the two main ingredients used in the video?",
+            "gt": "The two main ingredients used in the video are shredded cabbage and salt.",
+            "pred": "The two main ingredients used in the video are flour and a liquid, likely milk or water.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "317-2ICT6R4XpG8-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the cooking process take place in the video?",
+            "gt": "The cooking process takes place on a stovetop in a kitchen.",
+            "pred": "The cooking process takes place on a stove.",
+            "score": 1.0
+          },
+          {
+            "q": "What tool is used to stir and flip the food in the frying pan?",
+            "gt": "Wooden chopsticks are used to stir and flip the food.",
+            "pred": "A wooden spatula is used to stir and flip the food.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "306-2tCWtcoGpCM-split_3",
+        "qa": [
+          {
+            "q": "<image>\nWhy does the hand lift and point at the lobster tails?",
+            "gt": "Possibly to emphasize their freshness or texture.",
+            "pred": "The hand lifts and points at the lobster tails to emphasize their importance in the cooking process.",
+            "score": 0.0
+          },
+          {
+            "q": "What does the background of the video reveal about the setting?",
+            "gt": "The background reveals a window and various kitchen appliances, situating the scene in a kitchen.",
+            "pred": "The background reveals a kitchen setting with a wooden countertop and various kitchen utensils.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "401-Gr7E2bhg0iw-split_8",
+        "qa": [
+          {
+            "q": "<image>\nIs there more than one type of spice used in the cooking process?",
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          },
+          {
+            "q": "How is the spice added to the pan?",
+            "gt": "The spice is sprinkled into the pan using a pinch gesture.",
+            "pred": "The spice is added to the pan by pouring it from a small glass bowl.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "425-j878b3cSqEw-split_2",
+        "qa": [
+          {
+            "q": "<image>\nWhat does the text 'Finely Cut Onion - 1' indicate?",
+            "gt": "The text indicates that one portion of finely cut onion is being added to the dish.",
+            "pred": "The text indicates the specific ingredient being added to the pot.",
+            "score": 0.5
+          },
+          {
+            "q": "What website is promoted in the video?",
+            "gt": "The website 'mallikascookery.com' is promoted in the video.",
+            "pred": "The website 'www.dunlavinbacon.com' is promoted in the video.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "221-fTWrKsyzwm0-split_1",
+        "qa": [
+          {
+            "q": "<image>\nWhy is minced garlic added to the mixture?",
+            "gt": "Minced garlic is added to the mixture to enhance the preparation process and contribute to the flavor.",
+            "pred": "Minced garlic is added to the mixture as part of the recipe instructions, likely for flavor enhancement.",
+            "score": 0.5
+          },
+          {
+            "q": "What action does the hand perform in the video?",
+            "gt": "The hand adds diced onions, a variety of chopped vegetables, minced garlic, and a mixture of spices to a bowl.",
+            "pred": "The hand is seen holding a small white bowl and pouring its contents into the larger glass bowl.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "306-jGnz9f_2A2Y-split_4",
+        "qa": [
+          {
+            "q": "<image>\nWhat action is performed by the person on the left before the close-up s",
+            "gt": "The person on the left pours a mixture from a stone mortar into a metal sieve.",
+            "pred": "The person on the left is seen holding a small container and pouring its contents into the sieve.",
+            "score": 0.5
+          },
+          {
+            "q": "Where is the metal sieve positioned during the cooking process?",
+            "gt": "The metal sieve is held over a metal bowl.",
+            "pred": "The metal sieve is positioned over the pot.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "405-uI-vgcqOioU-split_1",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the video take place?",
+            "gt": "The video takes place in a kitchen.",
+            "pred": "The video takes place in a kitchen.",
+            "score": 1.0
+          },
+          {
+            "q": "What is the woman wearing in the video?",
+            "gt": "The woman is wearing a light green patterned top.",
+            "pred": "The woman is wearing a black top.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "416-R4ZerUrULLk-split_6",
+        "qa": [
+          {
+            "q": "<image>\nHow does the appearance of the legumes change throughout the video?",
+            "gt": "The legumes go from being separate in bowls to being fully incorporated into a rich, red tomato-based sauce.",
+            "pred": "The legumes are shown boiling, then being stirred and mixed with the vegetables, and finally being cooked in the broth.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "228-J3wZ7wYPVTI-split_3",
+        "qa": [
+          {
+            "q": "<image>\nHow is the liquid being added to the food processor?",
+            "gt": "Gradually.",
+            "pred": "The liquid is being poured from a transparent container into the food processor.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "302-_EtwHSuT4LA-split_0",
+        "qa": [
+          {
+            "q": "<image>\nWhy does the hand pour oil into the frying pan?",
+            "gt": "To prepare the pan for cooking.",
+            "pred": "The hand pours oil into the frying pan to prepare it for cooking.",
+            "score": 0.0
+          },
+          {
+            "q": "What is the hand holding when it enters the frame?",
+            "gt": "The hand is holding a green glass bottle.",
+            "pred": "The hand is holding a small white bowl.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "303-a-rB3f8lqEg-split_1",
+        "qa": [
+          {
+            "q": "<image>\nHow does the camera movement enhance the video?",
+            "gt": "The camera zooms in to show the oil being poured and then tilts to spread the oil evenly, enhancing the visual experienc",
+            "pred": "The camera zooms in to capture the texture and color of the ingredients, enhancing the viewer's understanding of the coo",
+            "score": 0.5
+          },
+          {
+            "q": "What is the woman's final action in the video?",
+            "gt": "The woman's final action in the video is standing by the stove, holding a spatula and looking at the pan, ready to start",
+            "pred": "The woman's final action is pouring the contents of the bowl into the pot.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "111-qdg_pmS934Q-split_3",
+        "qa": [
+          {
+            "q": "<image>\nWhat is the main focus of the video?",
+            "gt": "The video focuses on showcasing the preparation of a vibrant and fresh salad, emphasizing the steps to achieve a visuall",
+            "pred": "The main focus of the video is the preparation of a dish, specifically involving the use of a wok and various ingredient",
+            "score": 0.5
+          },
+          {
+            "q": "What are some of the main ingredients used in the salad?",
+            "gt": "The salad includes fresh green lettuce, chopped apples with red skin, mixed vegetables, chopped nuts, and green herbs.",
+            "pred": "The main ingredients include diced red apples, green grapes, and walnuts.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "116-BgndHaHcHE0-split_1",
+        "qa": [
+          {
+            "q": "<image>\nWhat is the final outcome of the mixing process as shown in the video?",
+            "gt": "The final outcome is a thoroughly mixed content in the bowl, achieving a consistent mixture.",
+            "pred": "The final outcome is a well-blended mixture of the ingredients, ready for the next step in the recipe.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the likely purpose of mixing flour and liquid in the video?",
+            "gt": "The likely purpose of mixing flour and liquid is to prepare a dough for baking or cooking.",
+            "pred": "The likely purpose is to create a batter or dough.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "103-0JVmVXLrNZo-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the video primarily take place?",
+            "gt": "The video primarily takes place in a kitchen.",
+            "pred": "The video primarily takes place in a kitchen.",
+            "score": 1.0
+          },
+          {
+            "q": "What items are visible on the kitchen counter at the beginning of the video?",
+            "gt": "A white plate with a sliced bun, small bowls of black pepper and salt, and a red and white striped cloth are visible on ",
+            "pred": "A white plate, a bowl of scrambled eggs, and a small container are visible on the kitchen counter.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "218-kAD8FSnkm50-split_6",
+        "qa": [
+          {
+            "q": "<image>\nHow is the white creamy mixture applied to the dough?",
+            "gt": "Using a spoon, the white creamy mixture is scooped and spread evenly in the center of the dough piece.",
+            "pred": "The white creamy mixture is spread evenly across the dough using a spoon.",
+            "score": 0.0
+          },
+          {
+            "q": "What is the main activity being showcased in the video?",
+            "gt": "The main activity is the preparation of a pastry, focusing on the filling and folding process.",
+            "pred": "The main activity is the preparation of a dish, specifically adding ingredients to a bowl and mixing them.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "228-J3wZ7wYPVTI-split_6",
+        "qa": [
+          {
+            "q": "<image>\nHow many times does the video transition between the kitchen setting and",
+            "gt": "The video transitions once from the kitchen setting to the person seated on the couch and then returns to the kitchen se",
+            "pred": "The video transitions between the kitchen setting and the person seated on the couch three times.",
+            "score": 0.5
+          },
+          {
+            "q": "Is the food processor used in the video a Cuisinart DELUXE 11 model?",
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "319-twL5BU4aFCo-split_7",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the video take place?",
+            "gt": "The video takes place in a kitchen.",
+            "pred": "The video takes place in a modern kitchen.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the first ingredient shown being added to the bowl?",
+            "gt": "The first ingredient shown being added to the bowl is red bell pepper strips.",
+            "pred": "The first ingredient shown being added to the bowl is a white powdery substance, likely flour.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "102-z1S8WkUoQtU-split_4",
+        "qa": [
+          {
+            "q": "<image>\nWhy are the onion rings dipped into the batter?",
+            "gt": "The onion rings are dipped into the batter as part of the preparation process for making onion rings.",
+            "pred": "The onion rings are dipped into the batter to coat them with batter before being placed on the baking tray for baking or",
+            "score": 0.5
+          },
+          {
+            "q": "What is the setting of the video when the person is shown?",
+            "gt": "The setting is a room with a blurred background that includes a red decorative statue.",
+            "pred": "The setting of the video is a kitchen.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "202-pCTdsgv1wZ4-split_5",
+        "qa": [
+          {
+            "q": "<image>\nIs the gas stove on?",
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          },
+          {
+            "q": "How does the chef ensure the leaves are evenly cooked?",
+            "gt": "The chef stirs the contents of the pan with a pair of tongs.",
+            "pred": "The chef carefully stirs the leaves with a wooden spatula to ensure they are evenly cooked.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "401-67ilysu8CeU-split_3",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the cooking process take place in the video?",
+            "gt": "The cooking process takes place in a typical kitchen setting with a stove and other kitchen utensils.",
+            "pred": "The cooking process takes place on a stove.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the main ingredient being cooked in the video?",
+            "gt": "The main ingredient being cooked is chicken pieces.",
+            "pred": "The main ingredient being cooked in the video is a piece of meat.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "206-on8-O_f69ys-split_6",
+        "qa": [
+          {
+            "q": "<image>\nIs the kitchen well-equipped for cooking?",
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          },
+          {
+            "q": "What is the main activity taking place in the video?",
+            "gt": "The main activity is a person preparing to cook by pouring liquid into a pot in a kitchen.",
+            "pred": "The main activity is the preparation of a dish, involving adding ingredients to a bowl and mixing them.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "229-PRSzKHcYXrk-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhy is olive oil drizzled over the patties?",
+            "gt": "Olive oil is drizzled over the patties to lightly coat them, as part of the preparation process before cooking.",
+            "pred": "Olive oil is drizzled over the patties to ensure they are well-coated and to prevent sticking.",
+            "score": 0.5
+          },
+          {
+            "q": "What does the background of the video indicate about the setting?",
+            "gt": "The background includes a red and white surface, indicating that the setting is a kitchen.",
+            "pred": "The background indicates a kitchen setting with wooden cabinets and a tiled floor.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "120-k-aTILi_nLY-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhat is the first thing that happens in the video?",
+            "gt": "The video begins with two pieces of butter melting in a black frying pan.",
+            "pred": "The first thing that happens in the video is a hand sprinkling grated cheese over a plate of scrambled eggs.",
+            "score": 0.5
+          },
+          {
+            "q": "What is added to the frying pan after the butter melts?",
+            "gt": "A pile of shredded potatoes is added to the frying pan after the butter melts.",
+            "pred": "Chopped onions are added to the frying pan after the butter melts.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "403-v4i6yW5O_Qg-split_3",
+        "qa": [
+          {
+            "q": "<image>\nHow can you tell the shrimp are partially cooked?",
+            "gt": "The shrimp are partially cooked when they show a pinkish color.",
+            "pred": "The shrimp are partially cooked because they are pink and slightly translucent.",
+            "score": 0.5
+          },
+          {
+            "q": "Where does the cooking process take place?",
+            "gt": "The cooking process takes place in a kitchen setting, as indicated by the stove and kitchen utensils in the background.",
+            "pred": "The cooking process takes place on a stove.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "113-qq0Wu8fJQLI-split_5",
+        "qa": [
+          {
+            "q": "<image>\nHow is the sandwich sliced?",
+            "gt": "The sandwich is sliced in half with a large knife.",
+            "pred": "The sandwich is sliced into halves.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the main focus of the video?",
+            "gt": "The main focus of the video is showcasing the preparation and gooey texture of a grilled cheese sandwich.",
+            "pred": "The main focus of the video is the preparation of a dish, specifically the addition of shredded cheese to a mixture of s",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "324-K8cfa-hIT-8-split_2",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the video take place?",
+            "gt": "The video takes place in a kitchen.",
+            "pred": "The video takes place in a kitchen.",
+            "score": 1.0
+          },
+          {
+            "q": "What is the person in the video wearing?",
+            "gt": "The person is wearing an orange shirt and a black apron.",
+            "pred": "The person is wearing a white chef's coat.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "301-iEDDZvKZLMk-split_0",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the cooking process take place in the video?",
+            "gt": "The cooking process takes place on a wooden surface.",
+            "pred": "The cooking process takes place on a stove.",
+            "score": 0.5
+          },
+          {
+            "q": "What type of pan is used in the cooking process?",
+            "gt": "A black frying pan is used.",
+            "pred": "A black frying pan is used in the cooking process.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "126-fqqpdOpgkdc-split_1",
+        "qa": [
+          {
+            "q": "<image>\nHow is the seasoning applied to the meat?",
+            "gt": "The seasoning is sprinkled evenly across the surface of the meat, creating small patches of lighter color where it lands",
+            "pred": "The seasoning is sprinkled over the meat using a small white bowl.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the main activity being performed in the video?",
+            "gt": "The main activity being performed in the video is seasoning the meat.",
+            "pred": "The main activity is preparing a mixture for cooking, involving adding and mixing various ingredients.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "206-8QCW0qWbNeI-split_5",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the cooking process take place in the video?",
+            "gt": "The cooking process takes place in a cozy kitchen with gray cabinets and drawers.",
+            "pred": "The cooking process takes place on a stove.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the person wearing while cooking in the video?",
+            "gt": "The person is wearing a colorful polka-dotted apron.",
+            "pred": "The person is wearing a white chef's coat.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "316-CYadKq5-FRg-split_6",
+        "qa": [
+          {
+            "q": "<image>\nWhat is being poured into the bowl in the video?",
+            "gt": "A light brown liquid is being poured into the bowl.",
+            "pred": "A clear liquid, likely water or broth, is being poured into the bowl.",
+            "score": 0.0
+          },
+          {
+            "q": "What ingredients are already in the bowl before the liquid is poured?",
+            "gt": "Small cubes of tofu and pieces of seaweed are in the bowl before the liquid is poured.",
+            "pred": "The ingredients already in the bowl include a white powdery substance, likely flour or cornstarch, and some green herbs.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "319-_XxXWiOoyhY-split_1",
+        "qa": [
+          {
+            "q": "<image>\nIs there more than one pot mentioned in the video description?",
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          },
+          {
+            "q": "What changes occur to the spinach during the video?",
+            "gt": "The spinach leaves are being steamed, indicating they are being cooked.",
+            "pred": "The spinach changes from being fresh to being wilted.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "229-2p_h3s1CPoc-split_2",
+        "qa": [
+          {
+            "q": "<image>\nHow is the video visually introduced?",
+            "gt": "The video begins with a top-down view of a wooden table, where various ingredients are arranged around a food processor.",
+            "pred": "The video begins with a close-up of a black frying pan on a stove, containing a small amount of oil.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the final step shown in the video regarding the food processor?",
+            "gt": "The final step shown is the food processor filled with all the ingredients, with the text 'into bowl of blender' indicat",
+            "pred": "The final step shown is the food processor being turned off, with the lid still in place.",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "223-LlzW9bBIPoA-split_2",
+        "qa": [
+          {
+            "q": "<image>\nWhere does the cooking session take place?",
+            "gt": "The cooking session takes place in a kitchen adorned with colorful, patterned tiles.",
+            "pred": "The cooking session takes place on a stove.",
+            "score": 0.5
+          },
+          {
+            "q": "What is the woman wearing while cooking?",
+            "gt": "The woman is wearing a black outfit while cooking.",
+            "pred": "The woman is wearing a black top.",
+            "score": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "video_mc": {
+    "task": "video_mc",
+    "accuracy": 0.8375,
+    "correct": 67,
+    "total": 80,
+    "details": [
+      {
+        "id": "406-P_eepz1z7H8-split_4",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "C",
+            "pred_full": "C. Arrange ingredients in bowls.",
+            "ok": false
+          },
+          {
+            "gt": "B",
+            "pred": "D",
+            "pred_full": "D. A checkered shirt.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "413-_bICKhr9AGo-split_8",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": false
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Lengthwise.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "309-UfWND-lc4sc-split_7",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. In a black frying pan.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "425-T3v9c2m0ni0-split_1",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "116-4if72iBIiJ8-split_3",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A. Sprinkling shredded mozzarella cheese on the dough.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "D",
+            "pred_full": "D. Bottom right corner.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "222-FXuAeiK2Y5Y-split_3",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "325-zia8N3EN69s-split_10",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A. Stirring the pot with a wooden spoon.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "410-0Y8z5xbGKqI-split_2",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "229-pQfW229-ozg-split_3",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. They add the chopped green herbs.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "104-Gf4eEhDpxgk-split_3",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": false
+          },
+          {
+            "gt": "C",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "325-kEpB-PVlvVk-split_6",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. A black wok.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "201-0xYOUNfzIn8-split_0",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A. From above.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "405-ox6YzyVQww0-split_4",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "B",
+            "pred_full": "B. Blue.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "401-awlqmed2nwU-split_5",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D. Into the black frying pan.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "209-rlHZ8xe9G10-split_5",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. Into a glass baking dish.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "109-tcPeQKJMTOk-split_0",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. Salt.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "314-ZazBiZ6ktfk-split_4",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "314-ZazBiZ6ktfk-split_4",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Towards the bowl.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "212-lQXNAjrNzus-split_1",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "209-nfJ8Hsh7L_c-split_4",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. A close-up of a pot containing a thick, red-brown sauce with visible chunks o",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "321-Dr3rUEc1uVE-split_3",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "413-_Vw0jI7kJtY-split_2",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "207-osJxKebjqnU-split_4",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "207-MzOOayCmDkA-split_0",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D. The detailed process of preparing a dish.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "228-tqrCEx9np9Y-split_4",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Cluttered with various kitchen appliances and spice jars.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "119-P7bsYTDILps-split_4",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. A person demonstrating a cooking recipe.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "D",
+            "pred_full": "D. From top to bottom.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "230-2UY6Fztzpng-split_6",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Mixed with the chicken pieces.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "214-imfl-NXiU8g-split_10",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Towards the stove.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "207-WrJ_Xj9FArM-split_0",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D. A denim shirt and a large, geometric necklace.",
+            "ok": true
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A. A knife, a potato, and a bowl of flour.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "324-LMoGwLqPM64-split_7",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "A",
+            "pred_full": "A. Slicing onions and other vegetables.",
+            "ok": false
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Sliced onions.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "228-ETXVbDoMKbQ-split_0",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. In a kitchen.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. Pouring chickpeas into the food processor.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "324-E46hfYyQzD4-split_1",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "A",
+            "pred_full": "A. To the right of the pot.",
+            "ok": false
+          }
+        ]
+      },
+      {
+        "id": "413-_Vw0jI7kJtY-split_5",
+        "mc": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A. Sprinkles white pepper.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. At the top of the frame.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "127-rMaWiWAg2tE-split_8",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C. Stirring a mixture.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D. Bottom left.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "321-KgpkoZrOqck-split_9",
+        "mc": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "pred_full": "C.",
+            "ok": true
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "pred_full": "A.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "421-D0STPAXDYxg-split_2",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. Reaching towards the dough.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D. Whole potatoes submerged in water.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "211-kpRcFx8JQl0-split_3",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "209-ANjn5Nrbw-c-split_4",
+        "mc": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. Stirring the mixture.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B. Red.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "425-5SMOBHTBPjA-split_4",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D. A kitchen with a gas stove.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          }
+        ]
+      },
+      {
+        "id": "113-RoLhMa9SHsI-split_3",
+        "mc": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "pred_full": "D.",
+            "ok": true
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "pred_full": "B.",
+            "ok": true
+          }
+        ]
+      }
+    ]
+  },
+  "video_cap": {
+    "task": "video_caption",
+    "avg_bleu4": 0.07471761996949743,
+    "avg_rouge_l": 0.2539216883550577,
+    "avg_cider": 2.5817228329350064,
+    "avg_word_overlap": 0.2836099506912432,
+    "num_samples": 40,
+    "details": [
+      {
+        "id": "419-fetFXsc6G5s-split_12",
+        "bleu4": 0.04502376856794621,
+        "rouge_l": 0.22612085769980506,
+        "cider": 2.6158255203413194,
+        "overlap": 0.27,
+        "pred": "The video begins with a person holding a rectangular tray filled with raw meat, likely a meatloaf or similar dish, on a kitchen countertop. The person is wearing a white apron with the text 'Mangia E ",
+        "gt": "The video begins with a close-up of a kitchen countertop where a person is preparing dough. The black granite surface is dusted with flour, and a rolling pin, a bowl with cooked flatbreads, and a glas"
+      },
+      {
+        "id": "419-vow-kxTPatc-split_5",
+        "bleu4": 0.04471360119749118,
+        "rouge_l": 0.24242424242424243,
+        "cider": 2.331457407645746,
+        "overlap": 0.22018348623853212,
+        "pred": "The video begins with a close-up of a white plate filled with chopped yellow vegetables, possibly cabbage or carrots, placed on a light-colored surface. A hand holding a small piece of white cheese ap",
+        "gt": "The video begins with a person wearing a dark long-sleeved shirt, kneading dough in a large transparent glass bowl placed on a wooden surface. Surrounding the bowl are various smaller glass bowls cont"
+      },
+      {
+        "id": "106-QUV_oA9DrGw-split_5",
+        "bleu4": 0.10573855919869546,
+        "rouge_l": 0.27956989247311825,
+        "cider": 2.7206806362579967,
+        "overlap": 0.29213483146067415,
+        "pred": "The video begins with a close-up of a white plate filled with finely chopped yellow vegetables, likely onions or cabbage. A hand holding a small piece of white cheese appears and starts sprinkling the",
+        "gt": "The video begins with a close-up of a white colander placed in a sink. A pot is tilted over the colander, and steam rises, indicating that hot contents are being poured. A hand holding a brown and whi"
+      },
+      {
+        "id": "323-pOP5Zzm19kc-split_2",
+        "bleu4": 0.04902693268030821,
+        "rouge_l": 0.22424242424242427,
+        "cider": 2.1232590278067867,
+        "overlap": 0.1935483870967742,
+        "pred": "The video begins with a close-up of a black frying pan on a stove, containing a small amount of oil. A hand holding a white spatula adds a small piece of butter to the pan, which starts to melt. The b",
+        "gt": "The video begins with a close-up view of a wooden cutting board where various ingredients are being meticulously prepared. A hand holding a knife is seen slicing a piece of ham into thin strips, demon"
+      },
+      {
+        "id": "403-LrfB-u6Y7Vg-split_4",
+        "bleu4": 0.049963654154200926,
+        "rouge_l": 0.29012345679012347,
+        "cider": 2.6286169511701867,
+        "overlap": 0.2840909090909091,
+        "pred": "The video begins with a close-up of a black frying pan on a stove, containing a mixture of chopped onions and spices. A hand holding a small white bowl adds a yellowish spice, likely turmeric, to the ",
+        "gt": "The video begins with a person in a modern kitchen setting, wearing a purple long-sleeve shirt, preparing to cook. The kitchen features white cabinets, a dark backsplash, and wooden countertops. Vario"
+      },
+      {
+        "id": "325-kEpB-PVlvVk-split_0",
+        "bleu4": 0.011643834815539418,
+        "rouge_l": 0.16194331983805668,
+        "cider": 1.6984320387662617,
+        "overlap": 0.2698412698412698,
+        "pred": "The video begins with a close-up of a person's hand holding a small glass bowl filled with a dark liquid, likely soy sauce. The person pours the soy sauce into a larger metal mixing bowl containing a ",
+        "gt": "The video showcases a cooking process set in a kitchen environment. A metal strainer, held by a wooden handle, is placed inside a large, round, black wok. The strainer contains several white, round ob"
+      },
+      {
+        "id": "409-XNbfYAZ__iU-split_3",
+        "bleu4": 0.06196587417042285,
+        "rouge_l": 0.24070021881838075,
+        "cider": 2.319692346595069,
+        "overlap": 0.26373626373626374,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a white plate. The food is then placed onto the plate, and the hand adjusts it to ensur",
+        "gt": "The video begins with a close-up of a person adding chopped carrots from a red bowl into a large blue pot on a stove. The text '4 medium carrots' appears on the screen, indicating the ingredient being"
+      },
+      {
+        "id": "215-7Ui4OCsawAU-split_5",
+        "bleu4": 0.009931506132275399,
+        "rouge_l": 0.17118997912317327,
+        "cider": 2.4833912457467493,
+        "overlap": 0.21374045801526717,
+        "pred": "The video begins with a close-up of a white plate filled with shredded yellow cheese, likely from an egg. A hand holding a small piece of white cheese appears and starts sprinkling it over the existin",
+        "gt": "The video begins with a person in a kitchen setting, wearing a dark shirt and a blue apron, engaged in the meticulous preparation of a dish with snails. The background features kitchen cabinets, a mic"
+      },
+      {
+        "id": "113-xHuaYMXGTnc-split_1",
+        "bleu4": 0.11731007096352547,
+        "rouge_l": 0.2831325301204819,
+        "cider": 2.832226388570099,
+        "overlap": 0.23863636363636365,
+        "pred": "The video begins with a close-up of a hand holding a small glass bowl filled with a white liquid, likely milk or cream. The hand tilts the bowl, pouring the liquid into a larger glass bowl containing ",
+        "gt": "The video begins with a close-up of a clean, white surface reflecting light. A block of cheese in a partially opened plastic wrapper is placed on the surface, labeled 'Lucerne Dairy Farms Natural Extr"
+      },
+      {
+        "id": "413-_bICKhr9AGo-split_6",
+        "bleu4": 0.1566416970661588,
+        "rouge_l": 0.31092436974789917,
+        "cider": 3.023260968730546,
+        "overlap": 0.3448275862068966,
+        "pred": "The video begins with a close-up of a person's hand holding a small glass bowl filled with white flour. The person then dips a piece of raw chicken into the bowl, ensuring it is fully coated with flou",
+        "gt": "The video begins with a close-up of a glass bowl filled with a mixture of red and white shredded vegetables, likely carrots and radishes, submerged in a liquid. A metal strainer is used to scoop out t"
+      },
+      {
+        "id": "304-X1e5zsLlbZo-split_4",
+        "bleu4": 0.06980985011892196,
+        "rouge_l": 0.2846975088967971,
+        "cider": 2.610682366151606,
+        "overlap": 0.27586206896551724,
+        "pred": "The video begins with a close-up of a black frying pan on a stove, containing a mixture of chopped onions and spices. A hand holding a small white bowl adds a yellowish spice, likely turmeric, to the ",
+        "gt": "The video begins with a close-up of a person holding a bottle of Clearspring Japanese Toasted Sesame Oil over a large, black, cast-iron wok placed on a gas stove with a visible flame beneath it. The p"
+      },
+      {
+        "id": "117-jRdA68GbUMg-split_10",
+        "bleu4": 0.04014916834611568,
+        "rouge_l": 0.23277909738717342,
+        "cider": 3.2372783171587303,
+        "overlap": 0.25,
+        "pred": "The video begins with a close-up of a bowl containing a mixture of ingredients, including sliced meat, white noodles, and small white mushrooms. A spoon is seen lifting a portion of the mixture, indic",
+        "gt": "The video begins with a close-up of a toasted English muffin half placed on a decorative plate. A slice of ham is carefully positioned on top of the muffin using metal tongs. The background features a"
+      },
+      {
+        "id": "210-xS78EktJZZA-split_8",
+        "bleu4": 0.032360227245784724,
+        "rouge_l": 0.19701492537313434,
+        "cider": 2.0702103356133974,
+        "overlap": 0.2413793103448276,
+        "pred": "The video begins with a close-up of a large, well-used stainless steel pan on a stove. The pan shows signs of frequent use, with some brownish stains and residue visible on its surface. A small amount",
+        "gt": "The video begins with a person preparing ingredients for a recipe on a granite countertop. On the left side, there is a red mixing bowl containing shredded ingredients, possibly potatoes or cheese. Th"
+      },
+      {
+        "id": "201-5cwg5mURihI-split_7",
+        "bleu4": 0.10313924538902926,
+        "rouge_l": 0.2747603833865815,
+        "cider": 2.7192257569156104,
+        "overlap": 0.3488372093023256,
+        "pred": "The video begins with a close-up of a person's hand holding a piece of food coated in a thick, white batter. The person is wearing a blue plaid shirt and is standing in a modern kitchen with maroon ca",
+        "gt": "The video features a chef in a modern kitchen, characterized by red cabinets, a stainless steel refrigerator, and shelves adorned with colorful bottles and potted plants. The chef, dressed in a white "
+      },
+      {
+        "id": "218-IPl_MdY9yNQ-split_9",
+        "bleu4": 0.08242009238482452,
+        "rouge_l": 0.25770308123249297,
+        "cider": 2.740917274520322,
+        "overlap": 0.3125,
+        "pred": "The video begins with a close-up of a person's hand holding a small white bowl filled with a dark liquid, likely soy sauce. The scene transitions to a wider shot where the person is seen pouring the s",
+        "gt": "The video begins with a close-up of a hand holding a small glass bowl filled with sliced red onions, which are being added to a red frying pan containing hot oil on a stovetop. The visible knobs in th"
+      },
+      {
+        "id": "113-DvAiRex4JlQ-split_3",
+        "bleu4": 0.04625345466019598,
+        "rouge_l": 0.2364341085271318,
+        "cider": 2.3141454422208922,
+        "overlap": 0.24761904761904763,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a white plate. The food is then placed onto the plate, and the hand adjusts it to ensur",
+        "gt": "The video begins with a person in a kitchen, wearing a blue shirt, preparing a sandwich on a stove. The kitchen is characterized by wooden cabinets, a green tiled backsplash, and various kitchen utens"
+      },
+      {
+        "id": "206-8QCW0qWbNeI-split_5",
+        "bleu4": 0.011102089150797627,
+        "rouge_l": 0.22613065326633164,
+        "cider": 2.2284691241648487,
+        "overlap": 0.21929824561403508,
+        "pred": "The video begins with a close-up of a white plate filled with finely chopped yellow vegetables, likely onions or cabbage. A hand holding a small piece of white cheese appears and starts sprinkling the",
+        "gt": "The video showcases a cooking process in a cozy kitchen setting with gray cabinets and drawers. It begins with a person wearing a colorful polka-dotted apron adding cooked spaghetti from a white bowl "
+      },
+      {
+        "id": "102-0Mz4NTozNXw-split_6",
+        "bleu4": 0.06094710023123267,
+        "rouge_l": 0.2356687898089172,
+        "cider": 2.264240204930182,
+        "overlap": 0.23529411764705882,
+        "pred": "The video begins with a close-up of a hand holding a small glass bowl filled with white powder, likely flour. The hand pours the flour into a larger metal mixing bowl containing a mixture of chopped v",
+        "gt": "The video begins with a close-up of a pot filled with hot oil. A fork is used to lower a breaded ring-shaped item into the oil, which starts to bubble and fry upon submersion. The oil is a golden colo"
+      },
+      {
+        "id": "421-z_ZHVTqbSZo-split_0",
+        "bleu4": 0.06906571533197965,
+        "rouge_l": 0.2707692307692308,
+        "cider": 2.8300396980132274,
+        "overlap": 0.26666666666666666,
+        "pred": "The video begins with a close-up of a hand holding a small glass bowl filled with a dark liquid, likely soy sauce. The bowl is placed on a wooden surface, and the hand tilts it to pour the liquid into",
+        "gt": "The video begins with a close-up view of a kitchen stove, where a frying pan is placed over a blue flame. A hand holding a white plate with various ingredients, including chopped green chilies, a brow"
+      },
+      {
+        "id": "301-3o2slUH6UmE-split_6",
+        "bleu4": 0.05517718154548227,
+        "rouge_l": 0.2254697286012526,
+        "cider": 2.3234748519649044,
+        "overlap": 0.2804878048780488,
+        "pred": "The video begins with a close-up of a person's hand holding a small glass bowl filled with white powder, likely flour. The person pours the flour into a larger metal mixing bowl containing a mixture o",
+        "gt": "The video begins with a close-up of a black frying pan on a stove, showing small bits of food residue and a slight sheen of oil. The text 'Add a little sesame oil.' appears at the top of the frame. A "
+      },
+      {
+        "id": "215-A4pTxrrBtMU-split_2",
+        "bleu4": 0.027707780764578444,
+        "rouge_l": 0.20689655172413793,
+        "cider": 2.0014792195738167,
+        "overlap": 0.31343283582089554,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a black frying pan on a stove. The food is then placed into the pan, and the hand uses ",
+        "gt": "The video features a close-up of a stainless steel pot on an induction stove, branded 'Balay.' Inside the pot, several dark brown objects, likely food items, are boiling in a white liquid. The number "
+      },
+      {
+        "id": "206-Ba2xxUXJ90w-split_8",
+        "bleu4": 0.1749616478836388,
+        "rouge_l": 0.315018315018315,
+        "cider": 3.3620553577919585,
+        "overlap": 0.3373493975903614,
+        "pred": "The video begins with a close-up of a large, well-used stainless steel pan on a stove, showing signs of frequent use with some brownish stains. A small amount of oil is then poured into the pan, creat",
+        "gt": "The video begins with a close-up of diced onions being sautéed in a pan. The onions are translucent and sizzling in oil, indicating they are being cooked to release their flavors. A clear liquid, like"
+      },
+      {
+        "id": "309-gswKIbddBHw-split_1",
+        "bleu4": 0.205052285971381,
+        "rouge_l": 0.3374233128834356,
+        "cider": 3.6356759376115013,
+        "overlap": 0.38823529411764707,
+        "pred": "The video begins with a close-up of a hand holding a small glass bowl filled with a white liquid, likely milk or cream. The hand tilts the bowl, pouring the liquid into a larger glass bowl containing ",
+        "gt": "The video begins with a close-up of a black pot on a stove. A hand holding a clear glass container pours a liquid, likely oil, into the pot, forming a small pool in the center. The hand continues to p"
+      },
+      {
+        "id": "120-eX2r9gvdt1o-split_0",
+        "bleu4": 0.05884127777741656,
+        "rouge_l": 0.22279792746113988,
+        "cider": 2.435439255506078,
+        "overlap": 0.3389830508474576,
+        "pred": "The video begins with a close-up of a person's hand holding a small glass bowl filled with a dark liquid, likely soy sauce. The person pours the soy sauce into a larger metal mixing bowl containing a ",
+        "gt": "The video begins with a person preparing ingredients on a white table, which includes a large white plate with peeled potatoes, a stainless steel bowl, a wooden cutting board, and various seasonings s"
+      },
+      {
+        "id": "405-tasuUgO6m3c-split_5",
+        "bleu4": 0.009350488015666729,
+        "rouge_l": 0.1943573667711599,
+        "cider": 2.3191443726485828,
+        "overlap": 0.205607476635514,
+        "pred": "The video begins with a close-up of a white plate filled with shredded yellow cheese, likely from an egg. A hand holding a small piece of white cheese appears and starts sprinkling it over the existin",
+        "gt": "The video showcases the preparation of a delicious roasted chicken dish. It begins with a person in a red garment arranging a whole seasoned chicken on a bed of various vegetables, including onions, c"
+      },
+      {
+        "id": "109-N6J2ZQYic_g-split_0",
+        "bleu4": 0.031157040399966852,
+        "rouge_l": 0.22404371584699453,
+        "cider": 2.3984277170719093,
+        "overlap": 0.17647058823529413,
+        "pred": "The video begins with a close-up of a hand holding a small glass bowl filled with a dark liquid, likely soy sauce. The bowl is placed on a wooden surface, and the hand tilts it to pour the liquid into",
+        "gt": "The video begins with a close-up shot of a hand holding a large knife, meticulously cutting through a piece of raw chicken on a white cutting board. The chicken appears to be a wing section, and the h"
+      },
+      {
+        "id": "303-a-rB3f8lqEg-split_8",
+        "bleu4": 0.11594537169785155,
+        "rouge_l": 0.26615969581749055,
+        "cider": 2.596490324729404,
+        "overlap": 0.32941176470588235,
+        "pred": "The video begins with a close-up of a large, well-used stainless steel pan on a stove. The pan shows signs of frequent use, with some brownish stains and residue visible on its surface. A small amount",
+        "gt": "In a modern kitchen, a person wearing a grey sleeveless top and a green and white checkered apron with floral pockets is seen stirring food in a stainless steel pan on a gas stove. The kitchen feature"
+      },
+      {
+        "id": "110-qpxPlQ0IfLk-split_3",
+        "bleu4": 0.02014277732285714,
+        "rouge_l": 0.226628895184136,
+        "cider": 2.3938329777821794,
+        "overlap": 0.23157894736842105,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a white plate. The food is then placed onto the plate, and the hand adjusts it to ensur",
+        "gt": "The video takes place in a rustic kitchen setting with a brick wall background and shelves filled with various kitchen items such as jars, bottles, and utensils. A person wearing a colorful plaid shir"
+      },
+      {
+        "id": "323-QqepsJSi5fs-split_5",
+        "bleu4": 0.010846705886326365,
+        "rouge_l": 0.2288135593220339,
+        "cider": 2.0985388353828816,
+        "overlap": 0.21794871794871795,
+        "pred": "The video begins with a close-up of a white plate filled with finely chopped yellow vegetables, likely cabbage or a similar ingredient. A hand holding a small piece of white cheese appears and starts ",
+        "gt": "The video features a person in a white chef's coat adorned with a red logo, actively cooking in a vibrant kitchen with red walls and white cabinets. Positioned behind a counter filled with various coo"
+      },
+      {
+        "id": "207-eVfyYRcTijk-split_8",
+        "bleu4": 0.08006187153098954,
+        "rouge_l": 0.2863961813842482,
+        "cider": 3.0898921090437796,
+        "overlap": 0.23529411764705882,
+        "pred": "The video begins with a close-up of a black wok on a stove, containing a small amount of oil. A hand holding a pair of metal tongs adds raw, thinly sliced pieces of red meat into the wok. The meat is ",
+        "gt": "The video begins with a close-up of a large stainless steel pot with a reflective surface, set outdoors against a scenic backdrop of the sea. A person pours a batter-like mixture from a bowl into the "
+      },
+      {
+        "id": "110-M4cDslY_qCg-split_1",
+        "bleu4": 0.15999324303061616,
+        "rouge_l": 0.3006134969325154,
+        "cider": 2.9707545579178647,
+        "overlap": 0.358695652173913,
+        "pred": "The video begins with a close-up of a hand holding a small glass bowl filled with a white liquid, likely milk or cream. The hand tilts the bowl, pouring the liquid into a larger glass bowl containing ",
+        "gt": "The video begins with a close-up of hands slicing a loaf of bread on a wooden cutting board. The bread is cut into thick slices, and each slice is further cut into smaller pieces. The person uses a se"
+      },
+      {
+        "id": "121-UUlfKJ9M_pQ-split_4",
+        "bleu4": 0.10568830583860217,
+        "rouge_l": 0.2585034013605442,
+        "cider": 2.6964587710089987,
+        "overlap": 0.3106796116504854,
+        "pred": "The video begins with a close-up of a person's hand holding a small white bowl filled with a dark liquid, likely soy sauce. The person pours the soy sauce into a larger metal mixing bowl containing a ",
+        "gt": "The video begins with a close-up of a pot on a stove, where a mixture of chopped vegetables and possibly some flour or other ingredients is being stirred with a whisk. The mixture appears to be in the"
+      },
+      {
+        "id": "316-9X5xmrZMX30-split_7",
+        "bleu4": 0.1290826259753545,
+        "rouge_l": 0.30666666666666664,
+        "cider": 2.7545632466685124,
+        "overlap": 0.3466666666666667,
+        "pred": "The video begins with a close-up of a person's hand holding a piece of food coated in a thick, white batter. The person is wearing a blue plaid shirt and is standing in a modern kitchen with maroon ca",
+        "gt": "The video begins with a close-up of a hand holding a piece of white paper towel with brownish stains on it. The hand is seen pressing and folding the paper towel, revealing a yellowish rectangular obj"
+      },
+      {
+        "id": "119-byZj4mfOJ2s-split_3",
+        "bleu4": 0.044706455559820175,
+        "rouge_l": 0.2310756972111554,
+        "cider": 2.681945023485008,
+        "overlap": 0.26277372262773724,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a white plate. The food is then placed onto the plate, and the hand adjusts it to ensur",
+        "gt": "The video begins with a person spreading a mixture, likely ground meat, onto a baking sheet lined with aluminum foil. The mixture is being shaped and flattened by hand, preparing it for cooking. The s"
+      },
+      {
+        "id": "111-lSq6y2F35ig-split_4",
+        "bleu4": 0.10213724916839519,
+        "rouge_l": 0.2683982683982684,
+        "cider": 2.7879211798404584,
+        "overlap": 0.3380281690140845,
+        "pred": "The video begins with a close-up of a black frying pan on a stove, containing a mixture of chopped onions and spices. A hand holding a small white bowl adds a yellowish spice, likely turmeric, to the ",
+        "gt": "The video showcases the preparation of a fresh and colorful fruit and nut salad. It begins with a close-up of a glass bowl filled with a mixture of chopped apples, grapes, celery, and either walnuts o"
+      },
+      {
+        "id": "124-D0EAxdmzjzE-split_2",
+        "bleu4": 0.1100895848488486,
+        "rouge_l": 0.25721784776902884,
+        "cider": 2.621081839393904,
+        "overlap": 0.34375,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a black frying pan on a stove. The hand tilts the food into the pan, and the food start",
+        "gt": "The video begins with a close-up of a blue portable gas stove, where a person places a black pan on it. The scene transitions to a person in a black shirt gesturing with their hand, followed by a shot"
+      },
+      {
+        "id": "318-_z1nplx1HdY-split_4",
+        "bleu4": 0.048456328925660784,
+        "rouge_l": 0.2462686567164179,
+        "cider": 2.4647275648677693,
+        "overlap": 0.2564102564102564,
+        "pred": "The video begins with a close-up of a black frying pan on a stove, containing a mixture of chopped onions and spices. A hand holding a small white bowl adds a yellowish spice, likely turmeric, to the ",
+        "gt": "The video takes place in a kitchen featuring wooden cabinets and a large stainless steel refrigerator. A person is diligently preparing a mixture using a small blender. The counter is cluttered with v"
+      },
+      {
+        "id": "308-XEHUV09m7Ok-split_2",
+        "bleu4": 0.03840887007072327,
+        "rouge_l": 0.25641025641025644,
+        "cider": 1.9984297754201983,
+        "overlap": 0.24050632911392406,
+        "pred": "The video begins with a close-up of a black frying pan on a stove, containing a small amount of oil. A hand holding a white spatula adds a small piece of butter to the pan, which starts to melt. The b",
+        "gt": "The video features a close-up of a person wearing a red apron and black shirt, meticulously preparing sushi on a bamboo mat. The scene showcases the person sprinkling black sesame seeds over a layer o"
+      },
+      {
+        "id": "104-qLygo7z5hn8-split_5",
+        "bleu4": 0.15629329979307338,
+        "rouge_l": 0.3837209302325581,
+        "cider": 3.0121971229905045,
+        "overlap": 0.46153846153846156,
+        "pred": "The video begins with a close-up of a white plate filled with finely chopped yellow vegetables, likely cabbage or a similar ingredient. A hand holding a small piece of white cheese appears and starts ",
+        "gt": "The video features a close-up of a white plate filled with scrambled eggs. A hand appears from the top of the frame, sprinkling shredded cheese over the scrambled eggs. The hand continues to sprinkle "
+      },
+      {
+        "id": "203-_HtTUAmEqts-split_3",
+        "bleu4": 0.13739796496720186,
+        "rouge_l": 0.26765799256505574,
+        "cider": 2.8343322253804653,
+        "overlap": 0.38235294117647056,
+        "pred": "The video begins with a close-up of a hand holding a small piece of food, possibly a piece of meat or fish, over a white plate. The food is then placed onto the plate, and the hand adjusts it to ensur",
+        "gt": "The video begins with a close-up shot of a red pot containing a thick, red sauce. The pot has a white interior with some sauce splatters on the sides, indicating that the sauce has been simmering for "
+      }
+    ]
+  },
+  "image_qa": {
+    "task": "image_qa",
+    "accuracy": 0.5141509433962265,
+    "correct": 163.5,
+    "total": 318,
+    "details": [
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000677.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001200.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001891.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001628.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          },
+          {
+            "gt": "A",
+            "pred": "D",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000415.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000814.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "D",
+            "score": 0.0
+          },
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001427.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000139.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00002286.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000098.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00002248.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00002018.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001495.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000251.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000287.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001961.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00002401.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001546.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001182.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001788.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001770.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000921.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000468.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001250.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000392.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001192.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "A",
+            "score": 0.0
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000215.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001748.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          },
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001473.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "D",
+            "score": 0.0
+          },
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001711.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000443.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          },
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001464.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001313.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          },
+          {
+            "gt": "D",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00002259.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001650.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000366.png",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001195.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00000462.png",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          },
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00002172.png",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/ai2d/images/ai2d_00001458.png",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "C",
+            "score": 0.0
+          },
+          {
+            "gt": "B",
+            "pred": "D",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_107131",
+        "qa": [
+          {
+            "gt": "The meat has likely been braised, a cooking technique that involves searing the ",
+            "pred": "The meat appears to have been slow-cooked, likely braised, which involves searin",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_14881",
+        "qa": [
+          {
+            "gt": "There are five visible vanilla party donuts on the tray. They appear to be in go",
+            "pred": "There are three vanilla party donuts visible on the tray, and they appear to be ",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_15511",
+        "qa": [
+          {
+            "gt": "Based on the image, the neighborhood appears to be middle to upper-middle class.",
+            "pred": "Based on the image, the neighborhood appears to be of a middle to upper-middle s",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_1889",
+        "qa": [
+          {
+            "gt": "Based on the painting alone, the man and the woman could be peasants or rural dw",
+            "pred": "Based on the painting, the man and woman could likely be a couple or family memb",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_108264",
+        "qa": [
+          {
+            "gt": "Based on the natural light illuminating the interior of the bus and the activity",
+            "pred": "Based on the lighting and activity seen through the bus windows, it appears to b",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_103956",
+        "qa": [
+          {
+            "gt": "Based on the image, the incorporation of hot dog slices into a muffin could be a",
+            "pred": "Based on the image, it could be a culinary experiment or a preparation for a mea",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_109728",
+        "qa": [
+          {
+            "gt": "The images containing shapes that are perfectly symmetrical are Image 1 (circle)",
+            "pred": "The images that contain shapes perfectly symmetrical are Image 1 (the circle), I",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_103315",
+        "qa": [
+          {
+            "gt": "Based on the image, the elephant appears to be fully grown, indicating that it i",
+            "pred": "Based on the image, the elephant appears to be an adult, likely between 20 and 4",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_13792",
+        "qa": [
+          {
+            "gt": "Based on the image alone and without additional context, it's not possible to de",
+            "pred": "Based on the image, the speckled pattern on the leaf could be a natural characte",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_101507",
+        "qa": [
+          {
+            "gt": "Based on the image, the two women with name tags and flags appear to be represen",
+            "pred": "Based on their attire and the items they hold, it appears that the three individ",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_17932",
+        "qa": [
+          {
+            "gt": "Based on the design and features, such as multiple compartments for organization",
+            "pred": "Based on the design and features of the backpack, such as the multiple compartme",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_10277",
+        "qa": [
+          {
+            "gt": "This bird appears to be a thrush, identifiable by its speckled breast, upright p",
+            "pred": "Based on the physical characteristics of the bird, such as its brown plumage wit",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_107378",
+        "qa": [
+          {
+            "gt": "Based on the distinctive black face with white fleece, the sheep in the foregrou",
+            "pred": "Based on the image, the breed of the sheep in the foreground appears to be a Suf",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_106939",
+        "qa": [
+          {
+            "gt": "Based on the image, the scratch could have been caused by a sharp object acciden",
+            "pred": "Based on the image, the scratch could have been caused by a sharp object making ",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_17392",
+        "qa": [
+          {
+            "gt": "The step-by-step process depicted may include selecting fresh carrots, washing t",
+            "pred": "Based on the images, the step-by-step process depicted could be as follows: firs",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_12991",
+        "qa": [
+          {
+            "gt": "The drawing resembles a sketch or a doodle, characterized by its simplicity and ",
+            "pred": "The drawing resembles a minimalist or contour drawing style, which is often used",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_108098",
+        "qa": [
+          {
+            "gt": "Based on the image alone, the bonsai tree could symbolize harmony with nature, a",
+            "pred": "Based on the image, the bonsai tree could symbolize the harmony between nature a",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_102066",
+        "qa": [
+          {
+            "gt": "Based solely on the image, the yellow tape measures might have been used for eit",
+            "pred": "Based on the image, the yellow tape measures could be used for measuring or mark",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_104101",
+        "qa": [
+          {
+            "gt": "The purpose of arranging these geometric shapes might be for a visual demonstrat",
+            "pred": "Based on the image, the purpose of arranging these geometric objects could be fo",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_17661",
+        "qa": [
+          {
+            "gt": "Based on the reflection and the shape of the object, it could be a metallic pen,",
+            "pred": "Based on the image, the cylindrical object could be a part of a larger system, p",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_14887",
+        "qa": [
+          {
+            "gt": "The weathered condition of the stop sign could indicate that it has been in plac",
+            "pred": "The weathered condition of the stop sign could signify the passage of time and t",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_16281",
+        "qa": [
+          {
+            "gt": "The blue and the pink jellyfish colors are not traditionally associated with rea",
+            "pred": "The green jellyfish is not traditionally associated with its real-life counterpa",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_19882",
+        "qa": [
+          {
+            "gt": "Based on her attire and makeup, which is elegant but not overly extravagant, she",
+            "pred": "Based on the image, the woman's elegant style and makeup suggest she is dressed ",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_2300",
+        "qa": [
+          {
+            "gt": "Based on the given image, the woman seems to favor a trendy and casual fashion s",
+            "pred": "Based on the clothing she is wearing in the photos, the woman's favorite fashion",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_106082",
+        "qa": [
+          {
+            "gt": "Based on the ingredients and the cooking steps, it appears that a dish involving",
+            "pred": "Based on the ingredients and cooking steps shown, it appears that a dish involvi",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_12079",
+        "qa": [
+          {
+            "gt": "Based on the physical features visible in the image, the dog appears to have cha",
+            "pred": "Based on the physical features of the dog, such as its black and white coat with",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_13356",
+        "qa": [
+          {
+            "gt": "Based on the casual and intimate setting of the image, it is plausible to infer ",
+            "pred": "Based on the image, it appears that the woman and the person on the tree limb ha",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_11264",
+        "qa": [
+          {
+            "gt": "Based solely on this single image, there are no obvious signs of abnormality or ",
+            "pred": "Based on the image, there are no immediately apparent signs of abnormality or pa",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_18242",
+        "qa": [
+          {
+            "gt": "Based on the image alone, the arrangement of these objects may serve an artistic",
+            "pred": "Based on the image, the purpose of arranging these objects together could be to ",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_103280",
+        "qa": [
+          {
+            "gt": "Based on the design and the pattern of the holes, this perforated metal sheet co",
+            "pred": "Based on the design and pattern of the holes, the function of this perforated me",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_106983",
+        "qa": [
+          {
+            "gt": "Based solely on the given image, the character's menacing glare could be a react",
+            "pred": "Based on the image, the character's menacing glare could be a result of anger or",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_13703",
+        "qa": [
+          {
+            "gt": "Based on its design and livery, this aircraft is likely used for cargo operation",
+            "pred": "Based on the design and livery of the aircraft, which includes the text \"PACIFIC",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_103893",
+        "qa": [
+          {
+            "gt": "Based on the given image, the wolf's posture suggests a state of calmness or res",
+            "pred": "Based on the posture and details visible in the image, the wolf appears to be in",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_17194",
+        "qa": [
+          {
+            "gt": "Based on the image, the bus is part of the \"Metro Liner\" service, which suggests",
+            "pred": "Based on the image, the bus appears to be a part of a public transit system, as ",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_100839",
+        "qa": [
+          {
+            "gt": "Based on the image, this decorated fabric bag could serve as a personalized acce",
+            "pred": "Based on the image, the potential use for this type of decorated fabric bag coul",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_100515",
+        "qa": [
+          {
+            "gt": "Based on the image alone, the make and model of the car cannot be determined wit",
+            "pred": "Based on the image, the exact make and model of the car cannot be determined wit",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_17939",
+        "qa": [
+          {
+            "gt": "Based on the image, the woman and boy seem to share a close bond, possibly indic",
+            "pred": "Based on the image, the woman and the boy seem to have a close relationship, pos",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_106782",
+        "qa": [
+          {
+            "gt": "Based on the position of the skis, where one ski is in the track and the other i",
+            "pred": "Based on the image, the skier appears to be engaged in classic style cross-count",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_12908",
+        "qa": [
+          {
+            "gt": "Based on the drawing alone, it's difficult to determine the exact type of leaf, ",
+            "pred": "Based on the drawing, this leaf could represent a common houseplant or garden pl",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "allava_vflan_inst_17400",
+        "qa": [
+          {
+            "gt": "Based solely on the image, the fabric could be made from a natural fiber such as",
+            "pred": "Based on the texture and appearance of the fabric, it could be made from a natur",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00007103.png",
+        "qa": [
+          {
+            "gt": "8.56.",
+            "pred": "8.56.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00002132.png",
+        "qa": [
+          {
+            "gt": "7.",
+            "pred": "7.",
+            "score": 1.0
+          },
+          {
+            "gt": "17.5.",
+            "pred": "The average of the last three years is 17.67.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00008294.png",
+        "qa": [
+          {
+            "gt": "Indonesia.",
+            "pred": "India.",
+            "score": 0.0
+          },
+          {
+            "gt": "India.",
+            "pred": "The answer is India.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00007919.png",
+        "qa": [
+          {
+            "gt": "8.54.",
+            "pred": "9.62.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00010912.png",
+        "qa": [
+          {
+            "gt": "5.4.",
+            "pred": "5.4.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00014801.png",
+        "qa": [
+          {
+            "gt": "4.7.",
+            "pred": "2.3.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00008827.png",
+        "qa": [
+          {
+            "gt": "Asia.",
+            "pred": "Asia.",
+            "score": 1.0
+          },
+          {
+            "gt": "370.89.",
+            "pred": "370.89.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00007884.png",
+        "qa": [
+          {
+            "gt": "114.26.",
+            "pred": "109.23.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00015880.png",
+        "qa": [
+          {
+            "gt": "3.",
+            "pred": "3.69.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00014602.png",
+        "qa": [
+          {
+            "gt": "182.",
+            "pred": "490.",
+            "score": 0.0
+          },
+          {
+            "gt": "259.",
+            "pred": "260.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00006837.png",
+        "qa": [
+          {
+            "gt": "3.1.",
+            "pred": "3.2.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00013174.png",
+        "qa": [
+          {
+            "gt": "67.",
+            "pred": "67.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00006142.png",
+        "qa": [
+          {
+            "gt": "6.45.",
+            "pred": "6.39.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00004855.png",
+        "qa": [
+          {
+            "gt": "September 2019.",
+            "pred": "September 2019.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00001308.png",
+        "qa": [
+          {
+            "gt": "3.",
+            "pred": "3.",
+            "score": 1.0
+          },
+          {
+            "gt": "87.",
+            "pred": "87.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00005147.png",
+        "qa": [
+          {
+            "gt": "50.",
+            "pred": "50.",
+            "score": 1.0
+          },
+          {
+            "gt": "50.",
+            "pred": "50.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00012248.png",
+        "qa": [
+          {
+            "gt": "3.",
+            "pred": "3.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00017765.png",
+        "qa": [
+          {
+            "gt": "6707.",
+            "pred": "5707.",
+            "score": 0.0
+          },
+          {
+            "gt": "15116.",
+            "pred": "116.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00015301.png",
+        "qa": [
+          {
+            "gt": "5533.",
+            "pred": "533.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00005893.png",
+        "qa": [
+          {
+            "gt": "65.3.",
+            "pred": "65.3.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00008557.png",
+        "qa": [
+          {
+            "gt": "7715.",
+            "pred": "7715.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00012701.png",
+        "qa": [
+          {
+            "gt": "20.24.",
+            "pred": "20.24.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00011329.png",
+        "qa": [
+          {
+            "gt": "135.8.",
+            "pred": "136.8.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00014422.png",
+        "qa": [
+          {
+            "gt": "3.12.",
+            "pred": "2.91.",
+            "score": 0.0
+          },
+          {
+            "gt": "2.97.",
+            "pred": "2.91.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00013061.png",
+        "qa": [
+          {
+            "gt": "Google.",
+            "pred": "Google.",
+            "score": 1.0
+          },
+          {
+            "gt": "274.52.",
+            "pred": "Apple generated approximately 274.52 billion U.S. dollars in revenue in the fisc",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00018003.png",
+        "qa": [
+          {
+            "gt": "3224.",
+            "pred": "3224.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00002978.png",
+        "qa": [
+          {
+            "gt": "62.",
+            "pred": "62.",
+            "score": 1.0
+          },
+          {
+            "gt": "17.",
+            "pred": "The difference between the maximum percentage share (67%) and the minimum percen",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00006028.png",
+        "qa": [
+          {
+            "gt": "42.6.",
+            "pred": "42.6.",
+            "score": 1.0
+          },
+          {
+            "gt": "John Lewis.",
+            "pred": "John Lewis was the leading brand across all industries in the UK between October",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00005820.png",
+        "qa": [
+          {
+            "gt": "7940.",
+            "pred": "7940.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00007147.png",
+        "qa": [
+          {
+            "gt": "39.",
+            "pred": "41.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00018195.png",
+        "qa": [
+          {
+            "gt": "16.26.",
+            "pred": "16.26.",
+            "score": 1.0
+          },
+          {
+            "gt": "36.91.",
+            "pred": "36.91.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00014259.png",
+        "qa": [
+          {
+            "gt": "33.97.",
+            "pred": "33.79.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00006303.png",
+        "qa": [
+          {
+            "gt": "1691.5.",
+            "pred": "1691.",
+            "score": 1.0
+          },
+          {
+            "gt": "331.8.",
+            "pred": "The average number of visitors to Zalando's website during the last quarter of 2",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00010223.png",
+        "qa": [
+          {
+            "gt": "69.88.",
+            "pred": "66.88.",
+            "score": 0.0
+          },
+          {
+            "gt": "145.1.",
+            "pred": "145.1.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00007917.png",
+        "qa": [
+          {
+            "gt": "4.74.",
+            "pred": "4.74.",
+            "score": 1.0
+          },
+          {
+            "gt": "5.04.",
+            "pred": "5.04.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00002145.png",
+        "qa": [
+          {
+            "gt": "Venezuela.",
+            "pred": "Venezuela.",
+            "score": 1.0
+          },
+          {
+            "gt": "10.",
+            "pred": "The ratio of Brazil to Haiti is 0.833333333.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00010211.png",
+        "qa": [
+          {
+            "gt": "5.",
+            "pred": "20.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00011067.png",
+        "qa": [
+          {
+            "gt": "53.1.",
+            "pred": "51.8.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00001149.png",
+        "qa": [
+          {
+            "gt": "Favorable.",
+            "pred": "Favorable.",
+            "score": 1.0
+          },
+          {
+            "gt": "0.397222222.",
+            "pred": "The ratio of unfavorable and favorable in South Korea is 0.250694444.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/chartqa/images/chartqa_00009591.png",
+        "qa": [
+          {
+            "gt": "5743.51.",
+            "pred": "509.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00057945.png",
+        "qa": [
+          {
+            "gt": "2.",
+            "pred": "0.",
+            "score": 0.0
+          },
+          {
+            "gt": "Red.",
+            "pred": "The other matte object that shares the same shape as the yellow one is red.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00057102.png",
+        "qa": [
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00057382.png",
+        "qa": [
+          {
+            "gt": "0.",
+            "pred": "0.",
+            "score": 1.0
+          },
+          {
+            "gt": "Large.",
+            "pred": "The ball is large.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00062014.png",
+        "qa": [
+          {
+            "gt": "Red.",
+            "pred": "Gray.",
+            "score": 0.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00004133.png",
+        "qa": [
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00067057.png",
+        "qa": [
+          {
+            "gt": "Yellow.",
+            "pred": "Green.",
+            "score": 0.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00057731.png",
+        "qa": [
+          {
+            "gt": "Sphere.",
+            "pred": "Sphere.",
+            "score": 1.0
+          },
+          {
+            "gt": "0.",
+            "pred": "2.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00004062.png",
+        "qa": [
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          },
+          {
+            "gt": "Rubber.",
+            "pred": "The answer is rubber",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00068566.png",
+        "qa": [
+          {
+            "gt": "Cylinder.",
+            "pred": "Cylinder.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00017442.png",
+        "qa": [
+          {
+            "gt": "Large.",
+            "pred": "Large.",
+            "score": 1.0
+          },
+          {
+            "gt": "Yellow.",
+            "pred": "The color of the smaller ball that is made of the same material as the large yel",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00060032.png",
+        "qa": [
+          {
+            "gt": "0.",
+            "pred": "0.",
+            "score": 1.0
+          },
+          {
+            "gt": "1.",
+            "pred": "There are two other objects, a small purple cube and a larger purple cube, that ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00054063.png",
+        "qa": [
+          {
+            "gt": "Small.",
+            "pred": "Large.",
+            "score": 0.0
+          },
+          {
+            "gt": "Rubber.",
+            "pred": "The large sphere in front of the small blue metal thing and behind the yellow ma",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00049712.png",
+        "qa": [
+          {
+            "gt": "Blue.",
+            "pred": "Blue.",
+            "score": 1.0
+          },
+          {
+            "gt": "Metal.",
+            "pred": "The sphere is made of a matte material, likely plastic or painted wood.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00052301.png",
+        "qa": [
+          {
+            "gt": "Yes.",
+            "pred": "No.",
+            "score": 0.0
+          },
+          {
+            "gt": "Large.",
+            "pred": "The metal cube is large.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00065485.png",
+        "qa": [
+          {
+            "gt": "1.",
+            "pred": "1.",
+            "score": 1.0
+          },
+          {
+            "gt": "Metal.",
+            "pred": "Based on the image, the cylinder to the right of the small brown cylinder appear",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00064651.png",
+        "qa": [
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          },
+          {
+            "gt": "1.",
+            "pred": "1.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00009347.png",
+        "qa": [
+          {
+            "gt": "Small.",
+            "pred": "Small.",
+            "score": 1.0
+          },
+          {
+            "gt": "3.",
+            "pred": "There are three items that fit the description: two blue cylinders and one small",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00061126.png",
+        "qa": [
+          {
+            "gt": "Cube.",
+            "pred": "Sphere.",
+            "score": 0.0
+          },
+          {
+            "gt": "Small.",
+            "pred": "The gray object on the left side of the metallic sphere appears to be a cube. It",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00053005.png",
+        "qa": [
+          {
+            "gt": "Rubber.",
+            "pred": "Rubber.",
+            "score": 1.0
+          },
+          {
+            "gt": "0.",
+            "pred": "0.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00068978.png",
+        "qa": [
+          {
+            "gt": "1.",
+            "pred": "1.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00016815.png",
+        "qa": [
+          {
+            "gt": "Yes.",
+            "pred": "No.",
+            "score": 0.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00065329.png",
+        "qa": [
+          {
+            "gt": "Red.",
+            "pred": "Red.",
+            "score": 1.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "No.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00061734.png",
+        "qa": [
+          {
+            "gt": "1.",
+            "pred": "1.",
+            "score": 1.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00063527.png",
+        "qa": [
+          {
+            "gt": "Yes.",
+            "pred": "No.",
+            "score": 0.0
+          },
+          {
+            "gt": "0.",
+            "pred": "1.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00020295.png",
+        "qa": [
+          {
+            "gt": "Small.",
+            "pred": "Small.",
+            "score": 1.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00007682.png",
+        "qa": [
+          {
+            "gt": "3.",
+            "pred": "2.",
+            "score": 0.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00032521.png",
+        "qa": [
+          {
+            "gt": "Metal.",
+            "pred": "Metal.",
+            "score": 1.0
+          },
+          {
+            "gt": "Metal.",
+            "pred": "The cylinder is made of metal.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00032306.png",
+        "qa": [
+          {
+            "gt": "1.",
+            "pred": "2.",
+            "score": 0.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00005338.png",
+        "qa": [
+          {
+            "gt": "0.",
+            "pred": "1.",
+            "score": 0.0
+          },
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00069368.png",
+        "qa": [
+          {
+            "gt": "Metal.",
+            "pred": "Metal.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00021422.png",
+        "qa": [
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          },
+          {
+            "gt": "1.",
+            "pred": "1.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00010244.png",
+        "qa": [
+          {
+            "gt": "Small.",
+            "pred": "Small.",
+            "score": 1.0
+          },
+          {
+            "gt": "1.",
+            "pred": "1.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00058918.png",
+        "qa": [
+          {
+            "gt": "1.",
+            "pred": "0.",
+            "score": 0.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00062543.png",
+        "qa": [
+          {
+            "gt": "Large.",
+            "pred": "Large.",
+            "score": 1.0
+          },
+          {
+            "gt": "Yes.",
+            "pred": "Yes.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00063174.png",
+        "qa": [
+          {
+            "gt": "0.",
+            "pred": "0.",
+            "score": 1.0
+          },
+          {
+            "gt": "Cube.",
+            "pred": "The object behind the tiny cyan metallic block and on the right side of the purp",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00023411.png",
+        "qa": [
+          {
+            "gt": "Large.",
+            "pred": "Large.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "Yes.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00057003.png",
+        "qa": [
+          {
+            "gt": "Metal.",
+            "pred": "Metal.",
+            "score": 1.0
+          },
+          {
+            "gt": "1.",
+            "pred": "0.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00015811.png",
+        "qa": [
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00056949.png",
+        "qa": [
+          {
+            "gt": "Cylinder.",
+            "pred": "Cylinder.",
+            "score": 1.0
+          },
+          {
+            "gt": "No.",
+            "pred": "No.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/clevr/images/clevr_00021918.png",
+        "qa": [
+          {
+            "gt": "Yes.",
+            "pred": "No.",
+            "score": 0.0
+          },
+          {
+            "gt": "3.",
+            "pred": "3.",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000014.png",
+        "qa": [
+          {
+            "gt": "Input Image is connected with Image Enhancement which is then connected with Ima",
+            "pred": "The diagram begins with an Input Image, which is then connected to Image Enhance",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000283.png",
+        "qa": [
+          {
+            "gt": "START is connected to K is equal to 0 which is then connected with LOOP and furt",
+            "pred": "The flow of information or energy begins with the start of the process, where K ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000267.png",
+        "qa": [
+          {
+            "gt": "STORAGE is connected with Separation which is then connected with MILLING which ",
+            "pred": "The diagram shows the process of oil extraction from a cake, starting with stora",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000172.png",
+        "qa": [
+          {
+            "gt": "Logo is connected with both Hardcopy and Softcopy. Hardcopy is connected with Qu",
+            "pred": "The diagram begins with a box labeled 'Logo' at the top. This box is connected t",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000098.png",
+        "qa": [
+          {
+            "gt": "Dinosaur dies is connected with Body found? which if Body found? is Yes then Sci",
+            "pred": "The diagram begins with a question, \"Dinosaur body found?\" If the answer is NO t",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000010.png",
+        "qa": [
+          {
+            "gt": "Collect rice sheath blight images is connected with Image preprocessing which is",
+            "pred": "The diagram begins with the instruction to 'Collect rice sheath bight images' an",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000191.png",
+        "qa": [
+          {
+            "gt": "Hans Albert Einstein is Son of Albert Einstein. Mileva Maric is wife of Albert E",
+            "pred": "The diagram begins with the name 'Hans Albert Einstein' at the top, indicating t",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000202.png",
+        "qa": [
+          {
+            "gt": "You are so hungry is connected with Is Mama at home? which if Is Mama at home? i",
+            "pred": "The diagram begins with a person feeling hungry, then they ask their friend if t",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000124.png",
+        "qa": [
+          {
+            "gt": "Create Document is connected with Document which is connected with Manager Appro",
+            "pred": "The flow of information or energy begins with 'Create Document' and moves to 'Do",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000035.png",
+        "qa": [
+          {
+            "gt": "Session Object is connected with GetQuery() which is then connected with Input v",
+            "pred": "Start is connected with Session Object which is then connected with GetQuery(). ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000250.png",
+        "qa": [
+          {
+            "gt": "BEGIN is connected with Enter Limit which is then connected with Initialize numb",
+            "pred": "The diagram begins with the instruction to Initialize number which is then conne",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000149.png",
+        "qa": [
+          {
+            "gt": "Power Supply is connected with both Bulb and TV. Also, Bulb and TV both are conn",
+            "pred": "The diagram shows a simple electronic system with four components: Power Supply,",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000220.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Administrator which is then connected with both Admin tw",
+            "pred": "The diagram begins with a blue box labeled 'Start' and then proceeds to a diamon",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000188.png",
+        "qa": [
+          {
+            "gt": "Intro is connected with Display message which is then connected with Return.",
+            "pred": "The diagram depicts a simple flowchart with three components: an 'Intro' box, a ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000081.png",
+        "qa": [
+          {
+            "gt": "START is connected with READ which is then connected with M=1 F=1 which is furth",
+            "pred": "The diagram begins with a start button, followed by reading a value for M and F.",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000080.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Requirements which is then connected with System simulat",
+            "pred": "Start is connected with Requirements which is then connected with System simulat",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000130.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Input which is then connected with C<10? which if C<=10?",
+            "pred": "The diagram begins with a start symbol, followed by an input symbol. The input s",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000271.png",
+        "qa": [
+          {
+            "gt": "If New Member eneters User name and Password then Login which is then connected ",
+            "pred": "The diagram begins with a new member who enters their user name and password. Th",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000095.png",
+        "qa": [
+          {
+            "gt": "Application is connected with Login which is then connected with Apply which is ",
+            "pred": "Application is connected with Login which is then connected with Apply. If Apply",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000181.png",
+        "qa": [
+          {
+            "gt": "Start / reset is connected with Bootloader button pressed? which if Bootloader b",
+            "pred": "Start/Reset is connected with Bootloader? which if Bootloader? is No then Initia",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000201.png",
+        "qa": [
+          {
+            "gt": "Promotion is connected with Manager Post which is then connected with both Send ",
+            "pred": "The diagram begins with a manager post, which is then connected to a letter bein",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000043.png",
+        "qa": [
+          {
+            "gt": "Set of input images is connected with conversion which is connected with DWT whi",
+            "pred": "The diagram begins with a set of input images, which are then converted into a d",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000121.png",
+        "qa": [
+          {
+            "gt": "Begin is connected with Generate Initial Population which is then connected with",
+            "pred": "The diagram begins with the initial step of generating an initial population. Th",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000134.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Read AI0, AI1 and AI2  which is then connected with Conv",
+            "pred": "The diagram begins with a start symbol and then reads AIO, A11, and A12. If the ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000164.png",
+        "qa": [
+          {
+            "gt": "PV array is connected with Power which is then connected with Distribution panne",
+            "pred": "The diagram shows the flow of electricity from a PV array to an inverter, then t",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000122.png",
+        "qa": [
+          {
+            "gt": "Data Acquisition is connected with Preprocessing which is then connected with Si",
+            "pred": "The diagram begins with Data Acquisition, which is then connected with Preproces",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000083.png",
+        "qa": [
+          {
+            "gt": "Take all the inputs which is then connected with Assign each variable which is t",
+            "pred": "Start is connected with Take all the inputs which is then connected with Assign ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000276.png",
+        "qa": [
+          {
+            "gt": "Converter is connected with Boost Converter and also Monitor is connected with B",
+            "pred": "The diagram shows a simple process where the Converter is connected with the Boo",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000132.png",
+        "qa": [
+          {
+            "gt": "Fruits are connected with Input mango, pitaya, durian which is then connected wi",
+            "pred": "The diagram begins with a green box labeled 'Input mango, pitaya, durian' which ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000079.png",
+        "qa": [
+          {
+            "gt": "Connection is connected with New Employee Fills in Paperwork which is then conne",
+            "pred": "The diagram begins with a green circle labeled 'New Employee PII's in Paperwork'",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000237.png",
+        "qa": [
+          {
+            "gt": "If Global is UART then Bluetooth and if Bluetooth is I2C then Accelerometer and ",
+            "pred": "The diagram shows a system with various components connected in a specific order",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000239.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Input which is then connected with C=A+B which is furthe",
+            "pred": "The diagram begins with a Start symbol, followed by an Input symbol. The Input s",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000186.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Input Data which is then connected with Process which is",
+            "pred": "The diagram begins with a start button, followed by an input data process. The i",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000238.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Login which is then connected with Verified?. If Verifie",
+            "pred": "The diagram begins with a start symbol, followed by a login process. If the logi",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000031.png",
+        "qa": [
+          {
+            "gt": "If Connection is Error then Calculations which if Calculations is Output then Sy",
+            "pred": "The diagram shows a system with three main components: Sensor, Calculations, and",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000146.png",
+        "qa": [
+          {
+            "gt": "Idea is connected with Program which is then connected with Python and C++.",
+            "pred": "The diagram shows the relationship between an idea and two programming languages",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000269.png",
+        "qa": [
+          {
+            "gt": "Start is connected with count=0 which is then connected with Operation which is ",
+            "pred": "The diagram begins with a start symbol, followed by setting the count to 0. The ",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000105.png",
+        "qa": [
+          {
+            "gt": "Reviewer is connected with Taking feedback from others which is then connected w",
+            "pred": "The diagram begins with the \"Reviewer\" who takes feedback from others and finali",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000066.png",
+        "qa": [
+          {
+            "gt": "Start is connected with Payment gateway which is then connected with Enter your ",
+            "pred": "The diagram begins with a start symbol, indicating the initial step of the proce",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "cauldron/diagram_image_to_text/images/diagram_image_to_text_00000155.png",
+        "qa": [
+          {
+            "gt": "Planning is connected with SUn-dried & decorticated which is then connected with",
+            "pred": "Sun-dried and dehydrated seaweed is connected with Leave it which is then connec",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1196",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1052",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "2067",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "D",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "513",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "859",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1894",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "1291",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1753",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "1121",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "A",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1321",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "A",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "671",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "D",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "808",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "858",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1562",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "636",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "473",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1377",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1528",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "2097",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1923",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1198",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1893",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "721",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "314",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1549",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "737",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "605",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1906",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "B",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "348",
+        "qa": [
+          {
+            "gt": "B",
+            "pred": "D",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "98",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "C",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1496",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "A",
+            "score": 1.0
+          }
+        ]
+      },
+      {
+        "id": "903",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1905",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "D",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1407",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1688",
+        "qa": [
+          {
+            "gt": "A",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "813",
+        "qa": [
+          {
+            "gt": "D",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1732",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "B",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "id": "1506",
+        "qa": [
+          {
+            "gt": "C",
+            "pred": "C",
+            "score": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}
