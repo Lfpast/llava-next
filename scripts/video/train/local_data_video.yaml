@@ -1,0 +1,3 @@
+datasets:
+  - json_path: /home/dduab/jiayusheng/LLaVA-NeXT/data/train/llava_video_178k_expanded.json
+    sampling_strategy: "all"

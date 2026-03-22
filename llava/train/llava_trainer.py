@@ -98,9 +98,14 @@ def plot_graphs_based_on_log_history(log_history, output_dir, metrics=None):
                 xs.append(entry.get("step", len(xs)))
                 ys.append(entry[metric])
         if not ys:
+            rank0_print(f"No values found for metric '{metric}' in log_history.")
             continue
         plt.figure()
-        plt.plot(xs, ys, label=metric)
+        # A single point is invisible with default line-only style.
+        if len(ys) == 1:
+            plt.plot(xs, ys, marker="o", linewidth=1.5, label=metric)
+        else:
+            plt.plot(xs, ys, linewidth=1.5, label=metric)
         plt.xlabel("step")
         plt.ylabel(metric)
         plt.title(metric)
@@ -1307,7 +1312,7 @@ class LLaVATrainer(Trainer):
         plot_graphs_based_on_log_history(
             log_history=self.state.log_history,
             output_dir=run_dir,
-            metrics=["train_loss"],
+            metrics=["loss", "train_loss"],
         )
 
         return TrainOutput(self.state.global_step, train_loss, metrics)

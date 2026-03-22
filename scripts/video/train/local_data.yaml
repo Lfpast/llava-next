@@ -1,6 +1,6 @@
 # 本地训练数据 (图像 + 视频混合，单阶段，对齐原始 LLaVA-Video 方案)
 datasets:
-  - json_path: /home/user/liujian/jiayusheng/LLaVA-NeXT/data/train/llava_onevision_sample.json
+  - json_path: /home/dduab/jiayusheng/LLaVA-NeXT/data/train/llava_onevision_sample.json
     sampling_strategy: "all"
-  - json_path: /home/user/liujian/jiayusheng/LLaVA-NeXT/data/train/llava_video_178k_expanded.json
+  - json_path: /home/dduab/jiayusheng/LLaVA-NeXT/data/train/llava_video_178k_expanded.json
     sampling_strategy: "all"

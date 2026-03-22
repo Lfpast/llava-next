@@ -168,6 +168,25 @@ class TrainingArguments(transformers.TrainingArguments):
     zo_eps: float = field(default=1e-3, metadata={"help": "MeZO hyperparameter epsilon."})
     zo_num_directions: int = field(default=1, metadata={"help": "Number of directions for MeZO."})
 
+    vfr_enabled: bool = field(default=False)
+    vfr_weight: float = field(default=0.0)
+    vfr_gt_encoder: str = field(default="dinov2")
+    vfr_gt_model_name: str = field(default="facebook/dinov2-base")
+    vfr_use_dinov2_transformers: bool = field(default=True)
+    vfr_cond_dim: int = field(default=1024)
+    vfr_target_dim: int = field(default=1024)
+    vfr_diffusion_steps: int = field(default=1000)
+    vfr_timestep_respacing: str = field(default="")
+    vfr_tokens_mode: str = field(default="both")
+    vfr_detach_cond: bool = field(default=False)
+    vfr_log_every: int = field(default=50)
+    vfr_use_siglip_intermediate: bool = field(default=False)
+    vfr_siglip_select_layer: int = field(default=-2)
+
+    vfa_enabled: bool = field(default=False)
+    vfa_weight: float = field(default=0.0)
+    vfa_layer: int = field(default=16)
+
 
 # @dataclass
 # class EvaluationArguments:
@@ -1694,7 +1713,41 @@ def train(attn_implementation=None):
                         module = module.to(torch.bfloat16)
 
     data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=data_args)
-    trainer = LLaVATrainer(model=model, tokenizer=tokenizer, args=training_args, **data_module)
+    if training_args.vfr_enabled:
+        from llava.train.llava_trainer_vfr import LLaVATrainerVFR
+        from llava.model.vfr.config import VFRConfig
+        from llava.model.vfr.loss import VFRLossComputer
+        from llava.model.vfr.span import compute_tokens_per_frame
+        
+        vfr_config = VFRConfig.from_training_args(training_args)
+        vfr_loss_computer = VFRLossComputer(vfr_config, model.config)
+        info = compute_tokens_per_frame(model.config)
+        h, w = info["H"], info["W"]
+        dummy_cond = torch.zeros(1, 1, h, w, 1)  # Only cond_grid.shape[2:] and [-1] might be checked. wait, cond_grid shape is expected [B, T, C, H, W] for projector, wait, actually [B, T, H, W, C]
+        dummy_gt = torch.zeros(1, 1, h, w, 768)  
+        
+        # Let's inspect _build_modules_if_needed. 
+        # cond_grid.shape[2], [3] used for h, w! 
+        # cond_grid.shape[-1] used for cond_dim! 
+        
+        # We need to provide dummy cond_grid shaped [1, 1, h, w, model.config.hidden_size]
+        dummy_cond = torch.zeros(1, 1, h, w, model.config.hidden_size)
+        vfr_loss_computer._build_modules_if_needed(model, dummy_cond, dummy_gt)
+        
+        vfr_loss_computer.to(dtype=torch.bfloat16 if training_args.bf16 else torch.float16, device=training_args.device)
+
+        model.vfr_loss_computer = vfr_loss_computer
+        model.vfr_loss_computer.train()
+        for p in model.vfr_loss_computer.parameters():
+            p.requires_grad = True
+        if hasattr(model.vfr_loss_computer, "gt_encoder") and model.vfr_loss_computer.gt_encoder is not None:
+            for p in model.vfr_loss_computer.gt_encoder.parameters():
+                p.requires_grad = False
+
+        trainer_cls = LLaVATrainerVFR
+    else:
+        trainer_cls = LLaVATrainer
+    trainer = trainer_cls(model=model, tokenizer=tokenizer, args=training_args, **data_module)
 
     if list(pathlib.Path(training_args.output_dir).glob("checkpoint-*")):
         trainer.train(resume_from_checkpoint=True)
