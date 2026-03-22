@@ -132,6 +132,7 @@ class DataArguments:
     frames_upbound: Optional[int] = field(default=0)
     add_time_instruction: Optional[bool] = field(default=False)
     force_sample: Optional[bool] = field(default=False)
+    auto_insert_image_token: bool = field(default=False)
 
 
 @dataclass
@@ -403,6 +404,12 @@ def preprocess_multimodal(sources: Sequence[str], data_args: DataArguments) -> D
         return sources
 
     for source in sources:
+        if bool(getattr(data_args, "auto_insert_image_token", False)):
+            has_image_token = any(DEFAULT_IMAGE_TOKEN in sentence.get("value", "") for sentence in source)
+            if not has_image_token and len(source) > 0:
+                first_value = source[0].get("value", "")
+                source[0]["value"] = f"{DEFAULT_IMAGE_TOKEN}\n{first_value}".strip()
+
         for sentence in source:
             # TODO maybe this should be changed for interleaved data?
             # if DEFAULT_IMAGE_TOKEN in sentence["value"] and not sentence["value"].startswith(DEFAULT_IMAGE_TOKEN):
@@ -1473,6 +1480,8 @@ def train(attn_implementation=None):
 
     parser = transformers.HfArgumentParser((ModelArguments, DataArguments, TrainingArguments))
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+    if training_args.vfr_enabled:
+        data_args.auto_insert_image_token = True
 
     if training_args.verbose_logging:
         rank0_print(f"Inspecting experiment hyperparameters:\n")

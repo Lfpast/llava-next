@@ -45,17 +45,18 @@ class DinoV2GTEncoder(nn.Module):
         if flat.max() > 1.0:
             flat = flat / 255.0
 
-        if flat.shape[-1] != self.image_size or flat.shape[-2] != self.image_size:
-            flat = F.interpolate(flat, size=(self.image_size, self.image_size), mode="bilinear", align_corners=False)
+        with torch.backends.cudnn.flags(enabled=False):
+            if flat.shape[-1] != self.image_size or flat.shape[-2] != self.image_size:
+                flat = F.interpolate(flat, size=(self.image_size, self.image_size), mode="bilinear", align_corners=False)
 
-        mean = torch.tensor([0.485, 0.456, 0.406], device=flat.device).view(1, 3, 1, 1)
-        std = torch.tensor([0.229, 0.224, 0.225], device=flat.device).view(1, 3, 1, 1)
-        pixel_values = (flat - mean) / std
-        
-        # GT encoder stays in float32; avoid per-step dtype switching.
-        pixel_values = pixel_values.to(dtype=torch.float32)
+            mean = torch.tensor([0.485, 0.456, 0.406], device=flat.device).view(1, 3, 1, 1)
+            std = torch.tensor([0.229, 0.224, 0.225], device=flat.device).view(1, 3, 1, 1)
+            pixel_values = (flat - mean) / std
 
-        out = self.model(pixel_values=pixel_values, return_dict=True)
+            # GT encoder stays in float32; avoid per-step dtype switching.
+            pixel_values = pixel_values.to(dtype=torch.float32)
+
+            out = self.model(pixel_values=pixel_values, return_dict=True)
         patch_tokens = remove_cls_token(out.last_hidden_state)
         grid = patch_tokens.view(patch_tokens.shape[0], self.grid, self.grid, self.hidden_size)
 

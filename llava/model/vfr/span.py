@@ -26,15 +26,22 @@ class SampleSpans:
 def compute_tokens_per_frame(model_config) -> Dict[str, int]:
     if isinstance(model_config, dict):
         patch = int(model_config.get("mm_spatial_pool_stride", 1) or 1)
+        merge_type = str(model_config.get("mm_patch_merge_type", "flat"))
         side = 27
         if "vision_config" in model_config and hasattr(model_config["vision_config"], "image_size") and hasattr(model_config["vision_config"], "patch_size"):
             side = int(model_config["vision_config"].image_size) // int(model_config["vision_config"].patch_size)
     else:
         patch = int(getattr(model_config, "mm_spatial_pool_stride", 1) or 1)
+        merge_type = str(getattr(model_config, "mm_patch_merge_type", "flat"))
         side = 27
         if hasattr(model_config, "vision_config") and hasattr(model_config.vision_config, "image_size") and hasattr(model_config.vision_config, "patch_size"):
             side = int(model_config.vision_config.image_size) // int(model_config.vision_config.patch_size)
-    
+
+    # Align with llava_arch behavior:
+    # - video features are spatially pooled by mm_spatial_pool_stride
+    # - image features keep raw patch grid for common single-image path
+    image_h = int(side)
+    image_w = int(side)
     pooled_h = int(math.ceil(side / patch))
     pooled_w = int(math.ceil(side / patch))
 
@@ -42,22 +49,27 @@ def compute_tokens_per_frame(model_config) -> Dict[str, int]:
         newline_mode = str(model_config.get("mm_newline_position", "grid"))
     else:
         newline_mode = str(getattr(model_config, "mm_newline_position", "grid"))
-    no_newline = pooled_h * pooled_w
+    video_no_newline = pooled_h * pooled_w
     if newline_mode == "grid":
-        with_newline = pooled_h * (pooled_w + 1)
+        video_with_newline = pooled_h * (pooled_w + 1)
     elif newline_mode in {"frame", "one_token"}:
-        with_newline = no_newline + 1
+        video_with_newline = video_no_newline + 1
     else:
-        with_newline = no_newline
+        video_with_newline = video_no_newline
+
+    image_no_newline = image_h * image_w
+    image_with_newline = image_no_newline + (1 if "unpad" in merge_type else 0)
 
     info = {
         "H": pooled_h,
         "W": pooled_w,
-        "tokens_per_frame_with_newline": with_newline,
-        "tokens_per_frame_no_newline": no_newline,
-        "image_tokens": side * side,
+        "image_H": image_h,
+        "image_W": image_w,
+        "tokens_per_frame_with_newline": video_with_newline,
+        "tokens_per_frame_no_newline": video_no_newline,
+        "image_tokens_no_newline": image_no_newline,
+        "image_tokens_with_newline": image_with_newline,
     }
-    print(f"DEBUG compute_tokens_per_frame -> H:{pooled_h} W:{pooled_w} patch:{patch} side:{side} type(model_config):{type(model_config)}")
     return info
 
 
@@ -77,7 +89,9 @@ def _visual_tokens_for_sample(modality: str, image_tensor, model_config, info: D
         merge_type = str(getattr(model_config, "mm_patch_merge_type", "flat"))
         
     if modality != "video":
-        return int(info["image_tokens"])
+        if "unpad" in merge_type:
+            return int(info["image_tokens_with_newline"])
+        return int(info["image_tokens_no_newline"])
 
     if image_tensor is None:
         frames = 1
@@ -128,7 +142,14 @@ def compute_visual_spans(
         image_pos = (trimmed == IMAGE_TOKEN_INDEX).nonzero(as_tuple=False).flatten().tolist()
 
         if len(image_pos) == 0:
-            out.append(SampleSpans(modality=modality))
+            sample = SampleSpans(modality=modality)
+            if modality == "video":
+                sample.frame_h = int(info["H"])
+                sample.frame_w = int(info["W"])
+            else:
+                sample.frame_h = int(info["image_H"])
+                sample.frame_w = int(info["image_W"])
+            out.append(sample)
             continue
 
         vis_tokens = _visual_tokens_for_sample(modality, image_tensor, model_config, info)
@@ -163,8 +184,12 @@ def compute_visual_spans(
             sample.frame_spans = [sample.visual_span]
             sample.num_frames = 1
 
-        sample.frame_h = int(info["H"])
-        sample.frame_w = int(info["W"])
+        if modality == "video":
+            sample.frame_h = int(info["H"])
+            sample.frame_w = int(info["W"])
+        else:
+            sample.frame_h = int(info["image_H"])
+            sample.frame_w = int(info["image_W"])
         out.append(sample)
 
     return out

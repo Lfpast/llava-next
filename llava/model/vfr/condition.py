@@ -17,10 +17,21 @@ def extract_last_layer_hidden(outputs) -> torch.Tensor:
 def strip_newline_tokens(tokens: torch.Tensor, H: int, W: int, mm_newline_position: str) -> torch.Tensor:
     # tokens: [N, T, C] -> [N, H, W, C]
     if mm_newline_position == "grid":
-        tokens = tokens[:, : H * (W + 1), :].reshape(tokens.shape[0], H, W + 1, tokens.shape[-1])
+        need = int(H * (W + 1))
+        if tokens.shape[1] < need:
+            pad = torch.zeros(tokens.shape[0], need - tokens.shape[1], tokens.shape[-1], device=tokens.device, dtype=tokens.dtype)
+            tokens = torch.cat([tokens, pad], dim=1)
+        else:
+            tokens = tokens[:, :need, :]
+        tokens = tokens.reshape(tokens.shape[0], H, W + 1, tokens.shape[-1])
         return tokens[:, :, :W, :]
 
-    tokens = tokens[:, : H * W, :]
+    need = int(H * W)
+    if tokens.shape[1] < need:
+        pad = torch.zeros(tokens.shape[0], need - tokens.shape[1], tokens.shape[-1], device=tokens.device, dtype=tokens.dtype)
+        tokens = torch.cat([tokens, pad], dim=1)
+    else:
+        tokens = tokens[:, :need, :]
     return tokens.reshape(tokens.shape[0], H, W, tokens.shape[-1])
 
 

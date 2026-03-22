@@ -141,6 +141,40 @@ class VFRLossComputer(nn.Module):
         last_hidden = extract_last_layer_hidden(outputs)[selected]
 
         spans = compute_visual_spans(input_ids, attention_mask, modalities, images, self.model_config)
+        seq_len = int(last_hidden.shape[1])
+        valid_span_idx = []
+        for i, s in enumerate(spans):
+            if s.visual_span is None or not s.frame_spans:
+                continue
+            if s.visual_span.end <= s.visual_span.start:
+                continue
+            if s.visual_span.start >= seq_len:
+                continue
+            if any(fs.end <= fs.start for fs in s.frame_spans):
+                continue
+            if any(fs.start >= seq_len for fs in s.frame_spans):
+                continue
+            valid_span_idx.append(i)
+
+        local_skip = len(valid_span_idx) == 0
+        local_reason = "no_valid_span" if local_skip else None
+        if self._sync_skip_flag(local_skip, device):
+            metrics = {"vfr/skipped": 1.0}
+            if local_reason is None:
+                metrics["vfr/skipped_other_rank"] = 1.0
+            else:
+                metrics["vfr/skipped_no_valid_span"] = 1.0
+            return torch.zeros((), device=device), metrics
+
+        input_ids = input_ids[valid_span_idx]
+        if attention_mask is not None:
+            attention_mask = attention_mask[valid_span_idx]
+        modalities = [modalities[i] for i in valid_span_idx]
+        if isinstance(images, list):
+            images = [images[i] for i in valid_span_idx]
+        last_hidden = last_hidden[valid_span_idx]
+        spans = [spans[i] for i in valid_span_idx]
+
         cond_grid = extract_llm_visual_condition(last_hidden, spans, self.model_config, self.vfr_config)
 
         cond_h, cond_w = int(cond_grid.shape[2]), int(cond_grid.shape[3])
@@ -176,7 +210,8 @@ class VFRLossComputer(nn.Module):
             cond_h, cond_w = desired_h, desired_w
 
         frames = _to_batched_frames(images, int(input_ids.shape[0]), device)
-        # gt_encoder is part of self, will be handled properly if we prebuilt it
+        if self.gt_encoder is None:
+            self.gt_encoder = DinoV2GTEncoder(model_name=self.vfr_config.gt_model_name).to(device)
         gt = self.gt_encoder(frames)  # [B,T,Hd,Wd,Cd]
 
         gt = resize_patch_grid(gt, out_hw=(cond_h, cond_w), mode="bilinear")
@@ -201,6 +236,7 @@ class VFRLossComputer(nn.Module):
             "vfr/tokens_per_frame": float(info["tokens_per_frame_with_newline"]),
             "vfr/frames": float(cond.shape[1]),
             "vfr/active_samples": float(cond.shape[0]),
+            "vfr/valid_span_samples": float(len(valid_span_idx)),
             "vfr/cond_resized_to_denoiser": 1.0 if cond_resized else 0.0,
             "vfr/cond_grid_h": float(cond_h),
             "vfr/cond_grid_w": float(cond_w),
