@@ -1734,7 +1734,11 @@ def train(attn_implementation=None):
         dummy_cond = torch.zeros(1, 1, h, w, model.config.hidden_size)
         vfr_loss_computer._build_modules_if_needed(model, dummy_cond, dummy_gt)
         
-        vfr_loss_computer.to(dtype=torch.bfloat16 if training_args.bf16 else torch.float16, device=training_args.device)
+        # Keep aux modules on the target device without forcing global fp16/bf16 casts.
+        # This avoids dtype thrashing in the frozen GT encoder path under ZeRO-3.
+        vfr_loss_computer.to(device=training_args.device)
+        if hasattr(vfr_loss_computer, "gt_encoder") and vfr_loss_computer.gt_encoder is not None:
+            vfr_loss_computer.gt_encoder.to(dtype=torch.float32)
 
         model.vfr_loss_computer = vfr_loss_computer
         model.vfr_loss_computer.train()

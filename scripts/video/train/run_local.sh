@@ -105,6 +105,7 @@ if [[ "${ENABLE_VFR}" == "true" ]]; then
     --vfr_weight "${VFR_WEIGHT}"
     --vfr_gt_model_name facebook/dinov2-base
     --vfr_use_dinov2_transformers True
+    --vfr_log_every 1
   )
 fi
 

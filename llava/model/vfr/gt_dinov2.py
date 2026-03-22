@@ -14,6 +14,7 @@ class DinoV2GTEncoder(nn.Module):
     def __init__(self, model_name: str = "facebook/dinov2-base"):
         super().__init__()
         self.model = Dinov2Model.from_pretrained(model_name)
+        self.model.float()
         self.model.eval()
         for p in self.model.parameters():
             p.requires_grad = False
@@ -25,9 +26,10 @@ class DinoV2GTEncoder(nn.Module):
 
     @torch.no_grad()
     def forward(self, frames: torch.Tensor) -> torch.Tensor:
-        # Align device and dtype with inputs dynamically to circumvent DeepSpeed ZeRO-3 offloading/CPU placement quirks
-        if self.model.device != frames.device or self.model.dtype != frames.dtype:
-            self.model.to(device=frames.device, dtype=frames.dtype)
+        # Keep GT encoder in float32 for numerical/runtime stability.
+        model_device = next(self.model.parameters()).device
+        if model_device != frames.device:
+            self.model.to(device=frames.device)
 
         # frames: [B,T,3,H,W] or [N,3,H,W]
         restore_bt = False
@@ -50,8 +52,8 @@ class DinoV2GTEncoder(nn.Module):
         std = torch.tensor([0.229, 0.224, 0.225], device=flat.device).view(1, 3, 1, 1)
         pixel_values = (flat - mean) / std
         
-        # Cast back to the model's expected dtype before forwarding
-        pixel_values = pixel_values.to(dtype=self.model.dtype)
+        # GT encoder stays in float32; avoid per-step dtype switching.
+        pixel_values = pixel_values.to(dtype=torch.float32)
 
         out = self.model(pixel_values=pixel_values, return_dict=True)
         patch_tokens = remove_cls_token(out.last_hidden_state)
