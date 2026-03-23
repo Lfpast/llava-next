@@ -51,7 +51,7 @@ class TimestepEmbedder(nn.Module):
 
     def forward(self, t):
         t_freq = self.timestep_embedding(t, self.frequency_embedding_size)
-        t_emb = self.mlp(t_freq)
+        t_emb = self.mlp(t_freq.to(dtype=torch.bfloat16))
         return t_emb
 
 class DiTBlock(nn.Module):
@@ -244,7 +244,7 @@ class RossDenoiser(nn.Module):
         model_kwargs = dict(context=z)
         loss_dict = self.train_diffusion.training_losses(self.net, target, t, model_kwargs)
         loss = loss_dict["loss"]
-
+  
         return loss
 
     @torch.no_grad()

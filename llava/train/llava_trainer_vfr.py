@@ -40,9 +40,11 @@ class LLaVATrainerVFR(LLaVATrainer):
             vfa_loss, _ = compute_vfa_loss(model=model, inputs=inputs, outputs=outputs)
 
         total_loss = lm_loss + self.args.vfr_weight * vfr_loss + self.args.vfa_weight * vfa_loss
+        outputs.loss = total_loss
 
         if self.state.global_step % max(1, int(self.args.vfr_log_every)) == 0:
             log_data = {
+                "train/loss": float(total_loss.detach().item()),
                 "train/lm_loss": float(lm_loss.detach().item()),
                 "train/vfr_loss": float(vfr_loss.detach().item()),
                 "train/total_loss": float(total_loss.detach().item()),

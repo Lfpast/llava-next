@@ -1462,7 +1462,67 @@ def get_model(model_args, training_args, bnb_model_from_pretrained_args):
                 **customized_kwargs,
             )
         else:
-            raise ValueError(f"Unknown model class {model_args}")
+            # Fallback for local checkpoints whose path no longer contains base-model keywords.
+            if cfg_pretrained is None:
+                try:
+                    cfg_pretrained = AutoConfig.from_pretrained(model_args.model_name_or_path)
+                except Exception:
+                    cfg_pretrained = None
+
+            resolved_arch = None
+            if cfg_pretrained is not None and hasattr(cfg_pretrained, "architectures") and cfg_pretrained.architectures:
+                resolved_arch = cfg_pretrained.architectures[0]
+                rank0_print(f"Resolving model class from config.architectures: {resolved_arch}")
+
+                if "Qwen" in resolved_arch:
+                    model = LlavaQwenForCausalLM.from_pretrained(
+                        model_args.model_name_or_path,
+                        cache_dir=training_args.cache_dir,
+                        attn_implementation=training_args.attn_implementation,
+                        torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                        low_cpu_mem_usage=False,
+                        **customized_kwargs,
+                    )
+                elif "Llama" in resolved_arch:
+                    model = LlavaLlamaForCausalLM.from_pretrained(
+                        model_args.model_name_or_path,
+                        cache_dir=training_args.cache_dir,
+                        attn_implementation=training_args.attn_implementation,
+                        torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                        low_cpu_mem_usage=False,
+                        **customized_kwargs,
+                    )
+                elif "Mistral" in resolved_arch:
+                    model = LlavaMistralForCausalLM.from_pretrained(
+                        model_args.model_name_or_path,
+                        cache_dir=training_args.cache_dir,
+                        attn_implementation=training_args.attn_implementation,
+                        torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                        low_cpu_mem_usage=False,
+                        **customized_kwargs,
+                    )
+                elif "Mixtral" in resolved_arch:
+                    model = LlavaMixtralForCausalLM.from_pretrained(
+                        model_args.model_name_or_path,
+                        cache_dir=training_args.cache_dir,
+                        attn_implementation=training_args.attn_implementation,
+                        torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                        low_cpu_mem_usage=False,
+                        **customized_kwargs,
+                    )
+                elif "Gemma" in resolved_arch:
+                    model = LlavaGemmaForCausalLM.from_pretrained(
+                        model_args.model_name_or_path,
+                        cache_dir=training_args.cache_dir,
+                        attn_implementation=training_args.attn_implementation,
+                        torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                        low_cpu_mem_usage=False,
+                        **customized_kwargs,
+                    )
+                else:
+                    raise ValueError(f"Unknown model architecture in config: {resolved_arch}")
+            else:
+                raise ValueError(f"Unknown model class {model_args}; config.architectures={resolved_arch}")
     else:
         model = transformers.LlamaForCausalLM.from_pretrained(
             model_args.model_name_or_path,

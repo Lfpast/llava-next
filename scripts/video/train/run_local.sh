@@ -50,7 +50,7 @@ VFA_LAYER="16"
 #                留空则自动生成（基于模型版本字符串）
 # ============================================================
 
-RUN_NAME="vfr_temp"
+RUN_NAME="vfr_temp2"
 OUTPUT_DIR="${REPO_ROOT}/work_dirs/siglip"
 
 # 若未手动指定，则自动生成
@@ -105,7 +105,7 @@ if [[ "${ENABLE_VFR}" == "true" ]]; then
     --vfr_weight "${VFR_WEIGHT}"
     --vfr_gt_model_name facebook/dinov2-base
     --vfr_use_dinov2_transformers True
-    --vfr_log_every 1
+    --vfr_log_every 50
   )
 fi
 
@@ -162,7 +162,7 @@ run_stage() {
   echo "output_dir:         ${out_dir}"
   echo "------------------------------------------------------------"
 
-  torchrun --nproc_per_node=2 --master_port 30000 \
+  torchrun --nproc_per_node=3 --master_port 30000 \
     -m llava.train.train_mem \
     "${COMMON_ARGS[@]}" \
     "${stage_args[@]}" \
